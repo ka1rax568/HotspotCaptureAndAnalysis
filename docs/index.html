@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>热点信息聚合 - 2026-01-29 21:47</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        header {
+            text-align: center;
+            color: white;
+            padding: 40px 0;
+        }
+        header h1 { font-size: 2.5em; margin-bottom: 10px; }
+        header p { opacity: 0.9; }
+        .categories { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 30px; }
+        .category-btn {
+            background: rgba(255,255,255,0.2);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .category-btn.active { background: white; color: #667eea; }
+        .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 20px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .card-header { display: flex; justify-content: space-between; margin-bottom: 10px; }
+        .card-source { color: #667eea; font-size: 0.85em; font-weight: 600; }
+        .card-date { color: #999; font-size: 0.8em; }
+        .card-title { font-size: 1.1em; margin-bottom: 10px; line-height: 1.4; }
+        .card-title a { color: #333; text-decoration: none; }
+        .card-title a:hover { color: #667eea; }
+        .card-summary { color: #666; font-size: 0.9em; line-height: 1.5; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>热点信息聚合</h1>
+            <p>更新时间: 2026-01-29 21:47 | 共 20 条</p>
+        </header>
+
+        <div class="categories">
+            <button class="category-btn active" onclick="filterCategory('all')">全部</button>
+            
+            <button class="category-btn" onclick="filterCategory('科技热点')">科技热点</button>
+            
+        </div>
+
+        <div class="cards">
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">01-29 12:07</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://theconversation.com/does-running-wear-out-the-bodies-of-professionals-and-amateurs-alike-270507" target="_blank">
+                        Does running wear out the bodies of professionals and amateurs alike?
+                    </a>
+                </h3>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">01-29 12:07</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.autoevolution.com/news/tuev-report-2026-tesla-model-y-has-the-worst-reliability-among-all-20222023-cars-261596.html" target="_blank">
+                        TÜV Report 2026: Tesla Model Y has the worst reliability of all 2022–2023 cars
+                    </a>
+                </h3>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">01-29 12:03</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://bayramovanar.substack.com/p/tech-market-is-fucked-up" target="_blank">
+                        The tech market is fundamentally fucked up and AI is just a scapegoat
+                    </a>
+                </h3>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">01-29 10:35</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://blog.ncase.me/on-depression/" target="_blank">
+                        Vitamin D and Omega-3 have a larger effect on depression than antidepressants
+                    </a>
+                </h3>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">01-29 10:15</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.cnn.com/2026/01/28/travel/ai-tourism-nonexistent-hotsprings-intl-scli" target="_blank">
+                        AI on Australian travel company website sent tourists to nonexistent hot springs
+                    </a>
+                </h3>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">01-29 07:07</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/Europe_s_next-generation_weather_satellite_sends_back_first_images" target="_blank">
+                        Europe’s next-generation weather satellite sends back first images
+                    </a>
+                </h3>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">01-29 06:24</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://computerhistory.org/blog/generative-music-with-the-muse/" target="_blank">
+                        Generative Music with the Muse
+                    </a>
+                </h3>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">01-29 03:58</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://web.mit.edu/jemorris/humor/500-miles" target="_blank">
+                        We can’t send mail farther than 500 miles (2002)
+                    </a>
+                </h3>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">01-29 03:29</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.ycombinator.com/companies/questom/jobs/UBebsyO-founding-engineer" target="_blank">
+                        Questom (YC F25) is hiring an engineer
+                    </a>
+                </h3>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">01-29 02:11</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.theguardian.com/us-news/2026/jan/28/maine-lobster-lady-dies-aged-105" target="_blank">
+                        Maine’s ‘Lobster Lady’ who fished for nearly a century dies aged 105
+                    </a>
+                </h3>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">01-29 02:08</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://github.com/lukilabs/beautiful-mermaid" target="_blank">
+                        Render Mermaid diagrams as SVGs or ASCII art
+                    </a>
+                </h3>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">01-28 22:53</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.cnbc.com/2026/01/28/tesla-ending-model-s-x-production.html" target="_blank">
+                        Tesla ending Models S and X production
+                    </a>
+                </h3>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">01-28 22:05</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://github.com/microsoft/bf-tree" target="_blank">
+                        Bf-Tree: modern read-write-optimized concurrent larger-than-memory range index
+                    </a>
+                </h3>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">01-28 20:59</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.macrumors.com/2026/01/28/patreon-apple-tax/" target="_blank">
+                        Apple to soon take up to 30% cut from all Patreon creators in iOS app
+                    </a>
+                </h3>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">01-28 18:52</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://github.com/jmuncor/sherlock" target="_blank">
+                        Show HN: A MitM proxy to see what your LLM tools are sending
+                    </a>
+                </h3>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">01-28 18:23</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://lmstudio.ai/blog/0.4.0" target="_blank">
+                        LM Studio 0.4
+                    </a>
+                </h3>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">01-28 17:54</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://computerhistory.org/press-releases/computer-history-museum-launches-digital-portal-to-its-vast-collection/" target="_blank">
+                        Computer History Museum Launches Digital Portal to Its Collection
+                    </a>
+                </h3>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">01-28 17:20</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://github.com/ratatui/mousefood" target="_blank">
+                        Mousefood – Build embedded terminal UIs for microcontrollers
+                    </a>
+                </h3>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">01-28 16:32</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.dimamik.com/posts/oban_py/" target="_blank">
+                        Oban, the job processing framework from Elixir, has come to Python
+                    </a>
+                </h3>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">01-28 14:32</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://ciechanow.ski/airfoil/" target="_blank">
+                        Airfoil (2024)
+                    </a>
+                </h3>
+                
+            </div>
+            
+        </div>
+    </div>
+
+    <script>
+        function filterCategory(cat) {
+            document.querySelectorAll('.category-btn').forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.textContent === cat || (cat === 'all' && btn.textContent === '全部')) {
+                    btn.classList.add('active');
+                }
+            });
+            document.querySelectorAll('.card').forEach(card => {
+                if (cat === 'all' || card.dataset.category === cat) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>

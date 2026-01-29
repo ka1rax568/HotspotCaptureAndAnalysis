@@ -1,0 +1,47 @@
+# 热点信息聚合系统配置文件
+
+# 运行模式: api 或 cli
+mode: api
+
+# 数据源配置
+sources:
+  rss:
+    enabled: true
+    feeds:
+      - name: "Hacker News"
+        url: "https://hnrss.org/frontpage"
+        category: "科技热点"
+      - name: "TechCrunch AI"
+        url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+        category: "AI新闻"
+
+  twitter:
+    enabled: true
+    queries:
+      - "AI"
+    max_results: 20
+
+  youtube:
+    enabled: true
+    queries:
+      - "AI"
+    max_results: 10
+
+  reddit:
+    enabled: false
+    subreddits:
+      - "artificial"
+
+# AI 处理配置
+ai:
+  model: "claude-sonnet-4-20250514"
+  tasks:
+    translate: true
+    summarize: true
+    categorize: true
+
+# 输出配置
+output:
+  html: true
+  json: true
+  keep_days: 7
