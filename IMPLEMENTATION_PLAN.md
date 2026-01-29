@@ -2,23 +2,23 @@
 
 ## 项目概述
 
-通过 GitHub Actions 定时触发，使用 Claude AI 抓取和分析多平台热点信息，生成 HTML 报告并部署到 GitHub Pages。
+通过 GitHub Actions 定时触发，使用 AI 抓取和分析多平台热点信息，生成 HTML 报告并部署到 GitHub Pages。
 
 ## 技术栈
 
 - **运行环境**: GitHub Actions (Ubuntu)
 - **编程语言**: Python 3.11+
-- **AI 处理**: LiteLLM 统一接口（支持 DeepSeek/OpenAI/Claude 等）
+- **AI 处理**: LiteLLM 统一接口（默认 Qwen3-8B 免费模型）
 - **部署**: GitHub Pages
 
 ## 数据源
 
-| 数据源 | 状态 | 优先级 |
-|--------|------|--------|
-| RSS | 启用 | P0 |
-| Twitter | 启用 | P1 |
-| YouTube | 启用 | P2 |
-| Reddit | 禁用 | - |
+| 数据源 | 状态 | 数量 | 说明 |
+|--------|------|------|------|
+| RSS | ✅ 启用 | 7源 | Hacker News、TechCrunch、The Verge、NYTimes、3个YouTube频道 |
+| Twitter | ✅ 启用 | 4词 | AI、ChatGPT、LLM、机器学习 |
+| YouTube | ✅ 启用 | 3词 | AI、ChatGPT、LLM |
+| Reddit | ⏸️ 禁用 | 4板块 | 代码已完成，待OAuth认证 |
 
 ---
 
@@ -53,6 +53,16 @@
 
 ## 实现记录
 
+### 2025-01-30 (续)
+
+**已完成**:
+- 扩展数据源配置（RSS 7源、Twitter 4词、YouTube 3词）
+- 新增 Reddit 采集器（支持热度过滤）
+- 切换 AI 模型到 Qwen3-8B（免费）
+- 添加请求延迟避免 API 限流
+- 代码重构：提取公共方法、统一配置管理
+- 全面更新项目文档
+
 ### 2025-01-30
 
 **已完成**:
@@ -81,7 +91,8 @@
 - 无
 
 **待处理**:
-- 热度过滤逻辑优化
+- 启用 Reddit（需OAuth认证）
+- TikTok 采集器
 - 去重机制
 
 详细差距分析见 [GAP_ANALYSIS.md](docs/GAP_ANALYSIS.md)

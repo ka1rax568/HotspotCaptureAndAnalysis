@@ -40,7 +40,7 @@ sources:
       - "LLM"
       - "机器学习"
     max_results: 30
-    delay: 2  # 请求间隔(秒)，避免限流
+    delay: 1.5  # 请求间隔(秒)，避免限流
 
   youtube:
     enabled: true
@@ -50,7 +50,7 @@ sources:
       - "LLM"
     max_results: 15
     days: 1  # 搜索最近几天的视频
-    delay: 1  # 请求间隔(秒)
+    delay: 0.5  # 请求间隔(秒)
 
   reddit:
     enabled: false  # 暂时禁用，需要 OAuth 认证

@@ -11,7 +11,7 @@
 | Twitter 采集 | 关注用户 | 关键词搜索 | ✅ 完成 |
 | YouTube 采集 | 订阅频道 | 关键词搜索+频道RSS | ✅ 完成 |
 | TikTok 采集 | 支持 | 未实现 | ❌ 缺失 |
-| AI 翻译 | DeepSeek | LiteLLM + DeepSeek-V3 | ✅ 完成 |
+| AI 翻译 | DeepSeek | Qwen3-8B (免费) | ✅ 完成 |
 | AI 摘要 | 60-80字 | 20-30字 | ✅ 完成 |
 | 数据存储 | 飞书多维表格 | GitHub Pages HTML | ✅ 已替代 |
 | 定时触发 | n8n 内置 | GitHub Actions | ✅ 完成 |

@@ -4,10 +4,11 @@
 
 ## 功能特性
 
-- **多数据源支持**：RSS、Twitter、YouTube（可配置启用/禁用）
-- **AI 处理**：基于 LiteLLM 统一接口，支持多种模型（DeepSeek、OpenAI、Claude 等）
+- **多数据源支持**：RSS(7源)、Twitter、YouTube、Reddit(待启用)
+- **AI 处理**：基于 LiteLLM 统一接口，默认使用 Qwen3-8B（免费）
 - **自动化部署**：GitHub Actions 定时运行 + GitHub Pages 托管
 - **可扩展架构**：易于添加新数据源和 AI 模型
+- **限流保护**：内置请求延迟，避免 API 限流
 
 ## 快速开始
 
@@ -42,17 +43,14 @@ sources:
     enabled: true
   twitter:
     enabled: true
+    delay: 1.5  # 请求间隔(秒)
   youtube:
     enabled: true
 
 # AI 处理配置
 ai:
   enabled: true
-  # LiteLLM 模型格式示例:
-  # - openai/deepseek-ai/DeepSeek-V3 (硅基流动)
-  # - deepseek/deepseek-chat (DeepSeek 官方)
-  # - openai/gpt-4o-mini (OpenAI)
-  model: "openai/deepseek-ai/DeepSeek-V3"
+  model: "openai/Qwen/Qwen3-8B"  # 免费模型
   api_base: "https://api.siliconflow.cn/v1"
 ```
 
