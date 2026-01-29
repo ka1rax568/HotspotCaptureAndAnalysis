@@ -70,10 +70,13 @@
 - 创建 GitHub Actions 工作流 (`.github/workflows/daily-hotspot.yml`)
 
 **进行中**:
-- 本地测试验证
+- 无
 
 **待处理**:
-- 无
+- AI 处理功能修复
+- 热度过滤逻辑优化
+
+详细差距分析见 [GAP_ANALYSIS.md](docs/GAP_ANALYSIS.md)
 
 ---
 
