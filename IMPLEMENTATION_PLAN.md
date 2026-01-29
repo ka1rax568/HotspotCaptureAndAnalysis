@@ -8,7 +8,7 @@
 
 - **运行环境**: GitHub Actions (Ubuntu)
 - **编程语言**: Python 3.11+
-- **AI 处理**: Claude API / Claude Code CLI (可切换)
+- **AI 处理**: LiteLLM 统一接口（支持 DeepSeek/OpenAI/Claude 等）
 - **部署**: GitHub Pages
 
 ## 数据源
@@ -53,6 +53,14 @@
 
 ## 实现记录
 
+### 2025-01-30
+
+**已完成**:
+- 重构 AI 处理模块，使用 LiteLLM 统一接口
+- 集成硅基流动 DeepSeek-V3 模型
+- 修复模型名称配置问题
+- 更新 GitHub Actions 工作流使用 AI_API_KEY 环境变量
+
 ### 2025-01-29
 
 **已完成**:
@@ -73,8 +81,8 @@
 - 无
 
 **待处理**:
-- AI 处理功能修复
 - 热度过滤逻辑优化
+- 去重机制
 
 详细差距分析见 [GAP_ANALYSIS.md](docs/GAP_ANALYSIS.md)
 

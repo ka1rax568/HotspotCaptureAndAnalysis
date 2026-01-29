@@ -1,13 +1,13 @@
 # 热点信息聚合系统
 
-通过 GitHub Actions 定时自动采集多平台热点信息，生成 HTML 报告并部署到 GitHub Pages。
+通过 GitHub Actions 定时自动采集多平台热点信息，使用 AI 进行翻译和摘要，生成 HTML 报告并部署到 GitHub Pages。
 
 ## 功能特性
 
 - **多数据源支持**：RSS、Twitter、YouTube（可配置启用/禁用）
-- **AI 处理**：支持 Claude API 翻译和摘要（可选）
+- **AI 处理**：基于 LiteLLM 统一接口，支持多种模型（DeepSeek、OpenAI、Claude 等）
 - **自动化部署**：GitHub Actions 定时运行 + GitHub Pages 托管
-- **可扩展架构**：易于添加新数据源
+- **可扩展架构**：易于添加新数据源和 AI 模型
 
 ## 快速开始
 
@@ -21,8 +21,7 @@
 |--------|------|------|
 | `TWITTER_API_KEY` | 否 | Twitter API Key (twitterapi.io) |
 | `YOUTUBE_API_KEY` | 否 | YouTube Data API Key |
-| `ANTHROPIC_API_KEY` | 否 | Claude API Key（AI处理用） |
-| `ANTHROPIC_BASE_URL` | 否 | 自定义 API 地址 |
+| `AI_API_KEY` | 否 | AI API Key（支持硅基流动、DeepSeek、OpenAI 等） |
 
 ### 3. 启用 GitHub Pages
 
@@ -46,9 +45,15 @@ sources:
   youtube:
     enabled: true
 
-# AI 处理开关
+# AI 处理配置
 ai:
-  enabled: false  # 设为 true 启用翻译/摘要
+  enabled: true
+  # LiteLLM 模型格式示例:
+  # - openai/deepseek-ai/DeepSeek-V3 (硅基流动)
+  # - deepseek/deepseek-chat (DeepSeek 官方)
+  # - openai/gpt-4o-mini (OpenAI)
+  model: "openai/deepseek-ai/DeepSeek-V3"
+  api_base: "https://api.siliconflow.cn/v1"
 ```
 
 ## 项目结构
