@@ -40,7 +40,7 @@ ai:
   # - anthropic/claude-3-haiku-20240307 (Anthropic)
   # - deepseek/deepseek-chat (DeepSeek 官方)
   # - openai/deepseek-chat (硅基流动等 OpenAI 兼容 API)
-  model: "openai/deepseek-chat"
+  model: "openai/deepseek-ai/DeepSeek-V3"
   # API 配置 (通过环境变量覆盖更安全)
   api_key_env: "AI_API_KEY"  # 环境变量名
   api_base: "https://api.siliconflow.cn/v1"  # 硅基流动
