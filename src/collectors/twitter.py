@@ -2,6 +2,7 @@
 Twitter 采集器
 """
 import os
+import time
 from typing import Any, Dict, List
 import requests
 
@@ -31,8 +32,11 @@ class TwitterCollector(BaseCollector):
         items = []
         queries = self.config.get('queries', ['AI'])
         max_results = self.config.get('max_results', 20)
+        delay = self.config.get('delay', 2)  # 请求间隔(秒)
 
-        for query in queries:
+        for i, query in enumerate(queries):
+            if i > 0:
+                time.sleep(delay)  # 避免限流
             query_items = self._search(query, max_results)
             items.extend(query_items)
 

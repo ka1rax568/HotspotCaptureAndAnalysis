@@ -2,6 +2,7 @@
 YouTube 采集器
 """
 import os
+import time
 from datetime import datetime, timedelta
 from typing import Any, Dict, List
 import requests
@@ -33,8 +34,11 @@ class YouTubeCollector(BaseCollector):
         items = []
         queries = self.config.get('queries', ['AI'])
         max_results = self.config.get('max_results', 10)
+        delay = self.config.get('delay', 1)  # 请求间隔(秒)
 
-        for query in queries:
+        for i, query in enumerate(queries):
+            if i > 0:
+                time.sleep(delay)
             query_items = self._search(query, max_results)
             items.extend(query_items)
 
