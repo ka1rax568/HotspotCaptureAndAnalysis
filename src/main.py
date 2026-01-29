@@ -12,6 +12,7 @@ from src.config import Config
 from src.collectors.rss import RSSCollector
 from src.collectors.twitter import TwitterCollector
 from src.collectors.youtube import YouTubeCollector
+from src.collectors.reddit import RedditCollector
 from src.processors.api_mode import APIProcessor
 from src.processors.cli_mode import CLIProcessor
 from src.generators.html import HTMLGenerator
@@ -36,6 +37,7 @@ def main():
         RSSCollector(config.get_source_config("rss")),
         TwitterCollector(config.get_source_config("twitter")),
         YouTubeCollector(config.get_source_config("youtube")),
+        RedditCollector(config.get_source_config("reddit")),
     ]
 
     for collector in collectors:

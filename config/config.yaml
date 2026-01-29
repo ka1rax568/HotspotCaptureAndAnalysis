@@ -7,6 +7,7 @@ mode: api
 sources:
   rss:
     enabled: true
+    max_per_feed: 20  # 每个源最多条数
     feeds:
       - name: "Hacker News"
         url: "https://hnrss.org/frontpage"
@@ -14,23 +15,50 @@ sources:
       - name: "TechCrunch AI"
         url: "https://techcrunch.com/category/artificial-intelligence/feed/"
         category: "AI新闻"
+      - name: "The Verge AI"
+        url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        category: "AI新闻"
+      - name: "NYTimes AI"
+        url: "https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/spotlight/artificial-intelligence/rss.xml"
+        category: "AI新闻"
+      # YouTube 频道 RSS
+      - name: "AI Explained"
+        url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw"
+        category: "YouTube频道"
+      - name: "Matthew Berman"
+        url: "https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g"
+        category: "YouTube频道"
+      - name: "AI Jason"
+        url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCPjNBjflYl0-HQtUvOx0Ibw"
+        category: "YouTube频道"
 
   twitter:
     enabled: true
     queries:
       - "AI"
-    max_results: 20
+      - "ChatGPT"
+      - "LLM"
+      - "机器学习"
+    max_results: 30
 
   youtube:
     enabled: true
     queries:
       - "AI"
-    max_results: 10
+      - "ChatGPT"
+      - "LLM"
+    max_results: 15
+    days: 1  # 搜索最近几天的视频
 
   reddit:
-    enabled: false
+    enabled: true
     subreddits:
       - "artificial"
+      - "ArtificialInteligence"
+      - "MachineLearning"
+      - "LocalLLaMA"
+    min_score: 50  # 最低点赞数
+    hours: 24  # 最近多少小时
 
 # AI 处理配置
 ai:

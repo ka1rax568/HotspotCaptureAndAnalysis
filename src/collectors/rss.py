@@ -37,7 +37,8 @@ class RSSCollector(BaseCollector):
             feed = feedparser.parse(url)
             items = []
 
-            for entry in feed.entries[:20]:  # 限制每个源最多20条
+            max_per_feed = self.config.get('max_per_feed', 20)
+            for entry in feed.entries[:max_per_feed]:
                 date_str = entry.get('published') or entry.get('updated')
                 published = self._parse_date(date_str)
                 item = HotspotItem(

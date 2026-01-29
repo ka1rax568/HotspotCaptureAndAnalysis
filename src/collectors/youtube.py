@@ -43,8 +43,9 @@ class YouTubeCollector(BaseCollector):
     def _search(self, query: str, max_results: int) -> List[HotspotItem]:
         """搜索视频"""
         try:
-            # 搜索最近24小时的视频
-            published_after = (datetime.utcnow() - timedelta(days=1)).isoformat() + "Z"
+            # 从配置读取时间范围
+            days = self.config.get('days', 1)
+            published_after = (datetime.utcnow() - timedelta(days=days)).isoformat() + "Z"
 
             params = {
                 "part": "snippet",
