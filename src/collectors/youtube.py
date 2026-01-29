@@ -5,7 +5,6 @@ import os
 from datetime import datetime, timedelta
 from typing import Any, Dict, List
 import requests
-from dateutil import parser as date_parser
 
 from .base import BaseCollector, HotspotItem
 
@@ -90,7 +89,7 @@ class YouTubeCollector(BaseCollector):
                 items.append(hotspot)
 
             return items
-        except Exception as e:
+        except requests.RequestException as e:
             print(f"[YouTube] 搜索 '{query}' 失败: {e}")
             return []
 
@@ -110,15 +109,6 @@ class YouTubeCollector(BaseCollector):
             for item in data.get('items', []):
                 stats[item['id']] = item.get('statistics', {})
             return stats
-        except Exception as e:
+        except requests.RequestException as e:
             print(f"[YouTube] 获取统计信息失败: {e}")
             return {}
-
-    def _parse_date(self, date_str: str) -> datetime:
-        """解析日期"""
-        if date_str:
-            try:
-                return date_parser.parse(date_str)
-            except:
-                pass
-        return datetime.now()

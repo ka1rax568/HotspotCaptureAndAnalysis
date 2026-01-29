@@ -1,10 +1,8 @@
 """
 RSS 采集器
 """
-from datetime import datetime
 from typing import Any, Dict, List
 import feedparser
-from dateutil import parser as date_parser
 
 from .base import BaseCollector, HotspotItem
 
@@ -40,7 +38,8 @@ class RSSCollector(BaseCollector):
             items = []
 
             for entry in feed.entries[:20]:  # 限制每个源最多20条
-                published = self._parse_date(entry)
+                date_str = entry.get('published') or entry.get('updated')
+                published = self._parse_date(date_str)
                 item = HotspotItem(
                     title=entry.get('title', ''),
                     url=entry.get('link', ''),
@@ -58,13 +57,3 @@ class RSSCollector(BaseCollector):
         except Exception as e:
             print(f"[RSS] 采集 {name} 失败: {e}")
             return []
-
-    def _parse_date(self, entry) -> datetime:
-        """解析日期"""
-        date_str = entry.get('published') or entry.get('updated')
-        if date_str:
-            try:
-                return date_parser.parse(date_str)
-            except:
-                pass
-        return datetime.now()

@@ -2,10 +2,8 @@
 Twitter 采集器
 """
 import os
-from datetime import datetime
 from typing import Any, Dict, List
 import requests
-from dateutil import parser as date_parser
 
 from .base import BaseCollector, HotspotItem
 
@@ -78,15 +76,6 @@ class TwitterCollector(BaseCollector):
                 items.append(item)
 
             return items
-        except Exception as e:
+        except requests.RequestException as e:
             print(f"[Twitter] 搜索 '{query}' 失败: {e}")
             return []
-
-    def _parse_date(self, date_str: str) -> datetime:
-        """解析 Twitter 日期格式"""
-        if date_str:
-            try:
-                return date_parser.parse(date_str)
-            except:
-                pass
-        return datetime.now()

@@ -6,6 +6,8 @@ from dataclasses import dataclass, field
 from datetime import datetime
 from typing import Any, Dict, List, Optional
 
+from dateutil import parser as date_parser
+
 
 @dataclass
 class HotspotItem:
@@ -52,3 +54,12 @@ class BaseCollector(ABC):
 
     def is_enabled(self) -> bool:
         return self.enabled
+
+    def _parse_date(self, date_str: Optional[str]) -> datetime:
+        """解析日期字符串"""
+        if date_str:
+            try:
+                return date_parser.parse(date_str)
+            except (ValueError, TypeError):
+                pass
+        return datetime.now()

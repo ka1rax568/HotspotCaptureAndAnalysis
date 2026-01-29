@@ -3,7 +3,6 @@ Claude Code CLI 模式处理器
 """
 import json
 import subprocess
-import tempfile
 from typing import Any, Dict, List
 
 from .base import BaseProcessor
@@ -27,6 +26,27 @@ class CLIProcessor(BaseProcessor):
             print(f"[CLI] 处理失败: {e}")
             return items
 
+    def _process_with_cli(self, items: List[HotspotItem]) -> List[HotspotItem]:
+        """使用 Claude CLI 处理"""
+        # 准备数据
+        data = [{"index": i, "title": item.title} for i, item in enumerate(items)]
+
+        # 构建提示
+        prompt = self._build_prompt(data)
+
+        # 调用 Claude CLI
+        result = subprocess.run(
+            ["claude", "--print", "-p", prompt],
+            capture_output=True,
+            text=True,
+            timeout=120
+        )
+
+        if result.returncode == 0:
+            self._parse_results(items, result.stdout)
+
+        return items
+
     def _build_prompt(self, data: List[Dict]) -> str:
         """构建提示词"""
         data_json = json.dumps(data, ensure_ascii=False)
@@ -48,24 +68,6 @@ class CLIProcessor(BaseProcessor):
                     if 0 <= idx < len(items):
                         items[idx].translated_title = r.get('translated', '')
                         items[idx].summary = r.get('summary', '')
-        except Exception as e:
-            print(f"[CLI] 解析失败: {e}")
-        """使用 Claude CLI 处理"""
-        # 准备数据
-        data = [{"index": i, "title": item.title} for i, item in enumerate(items)]
+        except json.JSONDecodeError as e:
+            print(f"[CLI] JSON解析失败: {e}")
 
-        # 构建提示
-        prompt = self._build_prompt(data)
-
-        # 调用 Claude CLI
-        result = subprocess.run(
-            ["claude", "--print", "-p", prompt],
-            capture_output=True,
-            text=True,
-            timeout=120
-        )
-
-        if result.returncode == 0:
-            self._parse_results(items, result.stdout)
-
-        return items
