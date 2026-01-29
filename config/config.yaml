@@ -47,6 +47,9 @@ ai:
   # 备选配置示例:
   # api_base: "https://api.deepseek.com"  # DeepSeek 官方
   # api_base: "https://api.openai.com/v1"  # OpenAI
+  # 通用配置
+  timeout: 120  # 请求超时时间(秒)
+  batch_size: 5  # 批处理大小
   tasks:
     translate: true
     summarize: true

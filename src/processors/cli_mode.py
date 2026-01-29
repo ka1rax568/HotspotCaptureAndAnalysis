@@ -12,6 +12,10 @@ from src.collectors.base import HotspotItem
 class CLIProcessor(BaseProcessor):
     """使用 Claude Code CLI 的处理器"""
 
+    def __init__(self, config: Dict[str, Any]):
+        super().__init__(config)
+        self.timeout = config.get('timeout', 120)
+
     @property
     def name(self) -> str:
         return "cli"
@@ -39,7 +43,7 @@ class CLIProcessor(BaseProcessor):
             ["claude", "--print", "-p", prompt],
             capture_output=True,
             text=True,
-            timeout=120
+            timeout=self.timeout
         )
 
         if result.returncode == 0:

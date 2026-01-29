@@ -25,6 +25,8 @@ class APIProcessor(BaseProcessor):
         self.api_key = os.environ.get(api_key_env, '')
         self.api_base = config.get('api_base')
         self.model = config.get('model', 'openai/deepseek-chat')
+        self.batch_size = config.get('batch_size', 5)
+        self.timeout = config.get('timeout', 120)
 
         # 禁用 LiteLLM 的日志输出
         litellm.suppress_debug_info = True
@@ -54,9 +56,8 @@ class APIProcessor(BaseProcessor):
         do_translate = tasks.get('translate', True)
         do_summarize = tasks.get('summarize', True)
 
-        batch_size = 5
-        for i in range(0, len(items), batch_size):
-            batch = items[i:i + batch_size]
+        for i in range(0, len(items), self.batch_size):
+            batch = items[i:i + self.batch_size]
             self._process_batch(batch, do_translate, do_summarize)
 
         return items
