@@ -1,15 +1,18 @@
 """
-Claude API 模式处理器
+LiteLLM 统一 AI 处理器 - 支持多种模型提供商
 """
 import os
+import json
 from typing import Any, Dict, List
+
+import litellm
 
 from .base import BaseProcessor
 from src.collectors.base import HotspotItem
 
 
 class APIProcessor(BaseProcessor):
-    """使用 Claude API 直接调用的处理器"""
+    """使用 LiteLLM 的统一 AI 处理器，支持 OpenAI/Anthropic/DeepSeek 等"""
 
     @property
     def name(self) -> str:
@@ -17,30 +20,35 @@ class APIProcessor(BaseProcessor):
 
     def __init__(self, config: Dict[str, Any]):
         super().__init__(config)
-        self.api_key = os.environ.get('ANTHROPIC_API_KEY', '')
-        self.base_url = os.environ.get('ANTHROPIC_BASE_URL', None)
+        # 从环境变量获取 API Key
+        api_key_env = config.get('api_key_env', 'AI_API_KEY')
+        self.api_key = os.environ.get(api_key_env, '')
+        self.api_base = config.get('api_base')
+        self.model = config.get('model', 'openai/deepseek-chat')
+
+        # 禁用 LiteLLM 的日志输出
+        litellm.suppress_debug_info = True
 
     def process(self, items: List[HotspotItem]) -> List[HotspotItem]:
         if not items:
             return []
 
         if not self.api_key:
-            print("[API] 未配置 ANTHROPIC_API_KEY")
+            api_key_env = self.config.get('api_key_env', 'AI_API_KEY')
+            print(f"[API] 未配置 {api_key_env} 环境变量")
             return items
 
+        print(f"[API] 使用模型: {self.model}")
+        if self.api_base:
+            print(f"[API] API 地址: {self.api_base}")
+
         try:
-            import anthropic
-            # 支持自定义 base_url
-            if self.base_url:
-                client = anthropic.Anthropic(api_key=self.api_key, base_url=self.base_url)
-            else:
-                client = anthropic.Anthropic(api_key=self.api_key)
-            return self._batch_process(client, items)
+            return self._batch_process(items)
         except Exception as e:
             print(f"[API] 处理失败: {e}")
             return items
 
-    def _batch_process(self, client, items: List[HotspotItem]) -> List[HotspotItem]:
+    def _batch_process(self, items: List[HotspotItem]) -> List[HotspotItem]:
         """批量处理热点"""
         tasks = self.config.get('tasks', {})
         do_translate = tasks.get('translate', True)
@@ -49,22 +57,24 @@ class APIProcessor(BaseProcessor):
         batch_size = 5
         for i in range(0, len(items), batch_size):
             batch = items[i:i + batch_size]
-            self._process_batch(client, batch, do_translate, do_summarize)
+            self._process_batch(batch, do_translate, do_summarize)
 
         return items
 
-    def _process_batch(self, client, batch: List[HotspotItem], translate: bool, summarize: bool):
+    def _process_batch(self, batch: List[HotspotItem], translate: bool, summarize: bool):
         """处理单批数据"""
         titles = [item.title for item in batch]
         prompt = self._build_prompt(titles, translate, summarize)
 
         try:
-            response = client.messages.create(
+            response = litellm.completion(
                 model=self.model,
-                max_tokens=2000,
-                messages=[{"role": "user", "content": prompt}]
+                messages=[{"role": "user", "content": prompt}],
+                api_key=self.api_key,
+                api_base=self.api_base,
+                max_tokens=2000
             )
-            result_text = response.content[0].text
+            result_text = response.choices[0].message.content
             self._parse_results(batch, result_text)
         except Exception as e:
             print(f"[API] 批处理失败: {e}")
