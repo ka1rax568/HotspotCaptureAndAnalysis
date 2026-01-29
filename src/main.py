@@ -48,13 +48,16 @@ def main():
     print(f"[Main] 共采集 {len(all_items)} 条数据")
 
     # AI 处理
-    if all_items:
+    ai_enabled = config.ai.get('enabled', True)
+    if all_items and ai_enabled:
         print(f"[Main] 开始 AI 处理...")
         if mode == "cli":
             processor = CLIProcessor(config.ai)
         else:
             processor = APIProcessor(config.ai)
         all_items = processor.process(all_items)
+    elif not ai_enabled:
+        print(f"[Main] AI 处理已禁用，跳过")
 
     # 生成报告
     print(f"[Main] 生成 HTML 报告...")

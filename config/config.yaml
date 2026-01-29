@@ -34,11 +34,12 @@ sources:
 
 # AI 处理配置
 ai:
+  enabled: false  # 暂时禁用 AI 处理
   model: "claude-sonnet-4-20250514"
   tasks:
-    translate: true
-    summarize: true
-    categorize: true
+    translate: false
+    summarize: false
+    categorize: false
 
 # 输出配置
 output:
