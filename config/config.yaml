@@ -51,7 +51,7 @@ sources:
     days: 1  # 搜索最近几天的视频
 
   reddit:
-    enabled: true
+    enabled: false  # 暂时禁用，需要 OAuth 认证
     subreddits:
       - "artificial"
       - "ArtificialInteligence"
