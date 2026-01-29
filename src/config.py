@@ -17,7 +17,8 @@ class Config:
 
     def _default_config_path(self) -> str:
         """获取默认配置文件路径"""
-        return str(Path(__file__).parent.parent.parent / "config" / "config.yaml")
+        # __file__ = src/config.py, parent = src, parent.parent = 项目根目录
+        return str(Path(__file__).parent.parent / "config" / "config.yaml")
 
     def load(self) -> None:
         """加载配置文件"""
