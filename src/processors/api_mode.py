@@ -24,7 +24,7 @@ class APIProcessor(BaseProcessor):
         api_key_env = config.get('api_key_env', 'AI_API_KEY')
         self.api_key = os.environ.get(api_key_env, '')
         self.api_base = config.get('api_base')
-        self.model = config.get('model', 'openai/deepseek-ai/DeepSeek-V3')
+        self.model = config.get('model', 'openai/Qwen/Qwen3-8B')
         self.batch_size = config.get('batch_size', 5)
         self.timeout = config.get('timeout', 120)
 

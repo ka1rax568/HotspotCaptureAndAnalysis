@@ -12,7 +12,7 @@ class BaseProcessor(ABC):
 
     def __init__(self, config: Dict[str, Any]):
         self.config = config
-        self.model = config.get('model', 'openai/deepseek-ai/DeepSeek-V3')
+        self.model = config.get('model', 'openai/Qwen/Qwen3-8B')
 
     @property
     @abstractmethod
