@@ -32,3 +32,23 @@
 - GitHub Actions 自动化部署
 - 模型对比测试工具
 - 模型快速切换脚本
+
+### 详细记录
+- 创建项目目录结构
+- 实现配置管理模块 (`src/config.py`)
+- 实现数据采集器基类 (`src/collectors/base.py`)
+- 实现 RSS/Twitter/YouTube 采集器
+- 实现 API/CLI 模式处理器
+- 实现 HTML 报告生成器
+- 创建 GitHub Actions 工作流
+
+---
+
+## [0.9.0] - 2026-01-30 (早期)
+
+### 优化
+- 扩展数据源配置（RSS 7源、Twitter 4词、YouTube 3词）
+- 新增 Reddit 采集器（支持热度过滤）
+- 切换 AI 模型到 Qwen3-8B（免费）
+- 添加请求延迟避免 API 限流
+- 重构 AI 处理模块，使用 LiteLLM 统一接口
