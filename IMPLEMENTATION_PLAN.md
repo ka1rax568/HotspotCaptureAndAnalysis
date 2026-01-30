@@ -86,4 +86,4 @@ python -m src.main --mode api
 ## 相关文档
 
 - [更新日志](CHANGELOG.md)
-- [差距分析](docs/GAP_ANALYSIS.md)
+- [差距分析](GAP_ANALYSIS.md)
