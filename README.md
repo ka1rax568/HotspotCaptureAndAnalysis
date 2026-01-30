@@ -93,6 +93,12 @@ python scripts/switch_model.py glm     # 切换到 GLM-4-Flash
 # 模型对比测试
 python scripts/model_benchmark.py --limit 5
 ```
+## 相关文档
+
+- [项目架构](IMPLEMENTATION_PLAN.md)
+- [更新日志](CHANGELOG.md)
+- [差距分析](GAP_ANALYSIS.md)
+
 
 ## License
 
