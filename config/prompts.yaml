@@ -1,0 +1,131 @@
+# Prompt 配置文件
+# 支持任务驱动的 prompt 管理，不同模型可有不同配置
+
+# ============ 全局设置 ============
+settings:
+  default_model: qwen
+
+# ============ 任务定义 ============
+tasks:
+  # --- 翻译摘要任务 ---
+  translate_summarize:
+    description: "翻译并生成摘要"
+    variables: ["content"]
+    output_format: json
+    default:
+      system: |
+        你是专业的多语言翻译助手。
+        要求：
+        - 必须处理每一条内容，不能遗漏
+        - 翻译准确流畅，符合中文表达习惯
+        - 专有名词可保留原文或音译
+        - 摘要简洁有信息量，20-30字
+        - 严格按JSON格式返回
+      user: |
+        请处理以下所有标题，每条都要翻译成中文并生成简短摘要(20-30字)。
+
+        {content}
+
+        注意：必须返回与输入数量相同的结果，每条都要处理。
+        返回JSON格式:
+        [{"index": 1, "translated": "中文标题", "summary": "摘要"}, {"index": 2, ...}]
+    models:
+      qwen:
+        system: |
+          你是专业翻译助手，翻译风格流畅自然。
+          要求：
+          - 翻译符合中文表达习惯，避免生硬直译
+          - 摘要信息丰富，突出核心内容
+          - 严格按JSON格式返回
+      glm:
+        system: |
+          你是专业翻译助手，翻译风格流畅自然。
+          要求：
+          - 翻译符合中文表达习惯，避免生硬直译
+          - 摘要信息丰富，突出核心内容
+          - 严格按JSON格式返回
+
+  # --- 重要性排序任务 ---
+  rank_importance:
+    description: "内容重要性排序"
+    variables: ["content", "criteria"]
+    output_format: json
+    default:
+      system: |
+        你是内容分析专家，擅长判断信息价值和重要性。
+        要求：
+        - 必须对每一条内容进行评分，不能遗漏
+        - 评分标准：影响范围、时效性、创新性、实用性
+        - 严格按JSON格式返回
+      user: |
+        请对以下所有内容按重要性评分(1-10分)：
+
+        {content}
+
+        评分参考标准：{criteria}
+
+        注意：必须返回与输入数量相同的结果，每条都要评分。
+        返回JSON格式:
+        [{"index": 1, "score": 8, "reason": "评分理由"}, {"index": 2, ...}]
+
+  # --- 分类任务 ---
+  categorize:
+    description: "内容分类"
+    variables: ["content", "categories"]
+    output_format: json
+    default:
+      system: |
+        你是内容分类专家，能准确判断内容所属类别。
+        要求：
+        - 必须对每一条内容进行分类，不能遗漏
+        - 严格按JSON格式返回
+      user: |
+        请对以下所有内容进行分类。
+
+        可选类别: {categories}
+
+        {content}
+
+        注意：必须返回与输入数量相同的结果，每条都要分类。
+        返回JSON格式:
+        [{"index": 1, "category": "类别名称"}, {"index": 2, ...}]
+
+  # --- 关键词提取任务 ---
+  extract_keywords:
+    description: "提取关键词"
+    variables: ["content", "max_keywords"]
+    output_format: json
+    default:
+      system: |
+        你是信息提取专家，擅长从文本中提取核心关键词。
+        要求：
+        - 必须对每一条内容提取关键词，不能遗漏
+        - 严格按JSON格式返回
+      user: |
+        请从以下所有内容中提取关键词（每条最多{max_keywords}个）：
+
+        {content}
+
+        注意：必须返回与输入数量相同的结果，每条都要处理。
+        返回JSON格式:
+        [{"index": 1, "keywords": ["关键词1", "关键词2"]}, {"index": 2, ...}]
+
+  # --- 情感分析任务 ---
+  sentiment_analysis:
+    description: "情感倾向分析"
+    variables: ["content"]
+    output_format: json
+    default:
+      system: |
+        你是情感分析专家，能准确判断文本的情感倾向。
+        要求：
+        - 必须对每一条内容进行分析，不能遗漏
+        - 严格按JSON格式返回
+      user: |
+        请分析以下所有内容的情感倾向：
+
+        {content}
+
+        注意：必须返回与输入数量相同的结果，每条都要分析。
+        返回JSON格式:
+        [{"index": 1, "sentiment": "positive/negative/neutral", "confidence": 0.85}, {"index": 2, ...}]

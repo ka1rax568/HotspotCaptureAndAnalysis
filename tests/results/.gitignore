@@ -1,0 +1,7 @@
+# 忽略所有测试结果文件
+*.json
+*.html
+*.log
+
+# 保留此 .gitignore 文件
+!.gitignore

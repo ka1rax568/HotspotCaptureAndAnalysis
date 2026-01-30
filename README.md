@@ -5,10 +5,12 @@
 ## 功能特性
 
 - **多数据源支持**：RSS(7源)、Twitter、YouTube、Reddit(待启用)
-- **AI 处理**：基于 LiteLLM 统一接口，默认使用 Qwen3-8B（免费）
+- **AI 处理**：基于 LiteLLM 统一接口，支持 Qwen3-8B、GLM-4-Flash 等免费模型
+- **Prompt 管理系统**：任务驱动的 Prompt 配置，支持多任务（翻译、摘要、分类、排序等）
+- **智能批处理**：动态批次大小，失败自动降级重试
 - **自动化部署**：GitHub Actions 定时运行 + GitHub Pages 托管
 - **可扩展架构**：易于添加新数据源和 AI 模型
-- **限流保护**：内置请求延迟，避免 API 限流
+- **限流保护**：内置请求延迟和超时设置，避免 API 限流
 
 ## 快速开始
 
@@ -20,9 +22,10 @@
 
 | Secret | 必填 | 说明 |
 |--------|------|------|
+| `AI_API_KEY` | 是 | 硅基流动 API Key（Qwen3-8B 免费） |
+| `ZAI_API_KEY` | 否 | 智谱 API Key（GLM-4-Flash 免费） |
 | `TWITTER_API_KEY` | 否 | Twitter API Key (twitterapi.io) |
 | `YOUTUBE_API_KEY` | 否 | YouTube Data API Key |
-| `AI_API_KEY` | 否 | AI API Key（支持硅基流动、DeepSeek、OpenAI 等） |
 
 ### 3. 启用 GitHub Pages
 
@@ -58,12 +61,17 @@ ai:
 
 ```
 ├── .github/workflows/    # GitHub Actions 工作流
-├── config/               # 配置文件
+├── config/
+│   ├── config.yaml       # 主配置文件
+│   └── prompts.yaml      # Prompt 配置文件
 ├── src/
 │   ├── collectors/       # 数据采集器
 │   ├── processors/       # AI 处理器
+│   ├── prompts/          # Prompt 管理模块
 │   └── generators/       # 报告生成器
+├── scripts/              # 工具脚本
 ├── templates/            # HTML 模板
+├── tests/results/        # 测试结果（不提交）
 └── docs/                 # 输出目录 (GitHub Pages)
 ```
 
@@ -71,7 +79,19 @@ ai:
 
 ```bash
 pip install -r requirements.txt
-python src/main.py
+python -m src.main
+```
+
+## 工具脚本
+
+```bash
+# 切换 AI 模型
+python scripts/switch_model.py list    # 列出可用模型
+python scripts/switch_model.py qwen    # 切换到 Qwen3-8B
+python scripts/switch_model.py glm     # 切换到 GLM-4-Flash
+
+# 模型对比测试
+python scripts/model_benchmark.py --limit 5
 ```
 
 ## License

@@ -1,6 +1,7 @@
 """
 RSS 采集器
 """
+import socket
 from typing import Any, Dict, List
 import feedparser
 
@@ -10,6 +11,11 @@ from .base import BaseCollector, HotspotItem
 class RSSCollector(BaseCollector):
     """RSS 源采集器"""
 
+    def __init__(self, config: Dict[str, Any]):
+        super().__init__(config)
+        # 设置默认超时
+        self.timeout = config.get('timeout', 15)
+
     @property
     def name(self) -> str:
         return "rss"
@@ -18,14 +24,21 @@ class RSSCollector(BaseCollector):
         if not self.is_enabled():
             return []
 
-        items = []
-        feeds = self.config.get('feeds', [])
+        # 设置全局超时
+        old_timeout = socket.getdefaulttimeout()
+        socket.setdefaulttimeout(self.timeout)
 
-        for feed_config in feeds:
-            feed_items = self._collect_feed(feed_config)
-            items.extend(feed_items)
+        try:
+            items = []
+            feeds = self.config.get('feeds', [])
 
-        return items
+            for feed_config in feeds:
+                feed_items = self._collect_feed(feed_config)
+                items.extend(feed_items)
+
+            return items
+        finally:
+            socket.setdefaulttimeout(old_timeout)
 
     def _collect_feed(self, feed_config: Dict[str, Any]) -> List[HotspotItem]:
         """采集单个 RSS 源"""
