@@ -1,0 +1,2462 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>热点信息聚合 - 2026-09-05 14:41</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        header {
+            text-align: center;
+            color: white;
+            padding: 40px 0;
+        }
+        header h1 { font-size: 2.5em; margin-bottom: 10px; }
+        header p { opacity: 0.9; }
+        .categories { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 30px; }
+        .category-btn {
+            background: rgba(255,255,255,0.2);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .category-btn.active { background: white; color: #667eea; }
+        .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 20px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .card-header { display: flex; justify-content: space-between; margin-bottom: 10px; }
+        .card-source { color: #667eea; font-size: 0.85em; font-weight: 600; }
+        .card-date { color: #999; font-size: 0.8em; }
+        .card-title { font-size: 1.1em; margin-bottom: 10px; line-height: 1.4; }
+        .card-title a { color: #333; text-decoration: none; }
+        .card-title a:hover { color: #667eea; }
+        .card-summary { color: #666; font-size: 0.9em; line-height: 1.5; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>热点信息聚合</h1>
+            <p>更新时间: 2026-09-05 14:41 | 共 158 条</p>
+        </header>
+
+        <div class="categories">
+            <button class="category-btn active" onclick="filterCategory('all')">全部</button>
+            
+            <button class="category-btn" onclick="filterCategory('AI新闻')">AI新闻</button>
+            
+            <button class="category-btn" onclick="filterCategory('YouTube热点')">YouTube热点</button>
+            
+            <button class="category-btn" onclick="filterCategory('YouTube频道')">YouTube频道</button>
+            
+            <button class="category-btn" onclick="filterCategory('科技热点')">科技热点</button>
+            
+        </div>
+
+        <div class="cards">
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">09-05 14:02</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://arstechnica.com/science/2026/09/meet-the-2026-ig-nobel-prize-winners/" target="_blank">
+                        伊格诺伯奖获奖者
+                    </a>
+                </h3>
+                
+                <p class="card-summary">表彰荒诞科研成果的幽默奖项得主公布</p>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">09-05 13:36</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/" target="_blank">
+                        2025年60美元游戏电脑AMD BC-250
+                    </a>
+                </h3>
+                
+                <p class="card-summary">_AMD BC-250以极低价格挑战游戏电脑市场_</p>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">09-05 13:11</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://arstechnica.com/health/2026/09/pentagon-releases-then-quickly-removes-testosterone-screening-policy/" target="_blank">
+                        美国国防部撤回新睾酮筛查政策
+                    </a>
+                </h3>
+                
+                <p class="card-summary">美国国防部突然撤回新睾酮检测政策，未给出任何解释</p>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">09-05 13:02</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.pbs.org/newshour/science/global-warming-will-exceed-1-5-degree-limit-un-says-in-report-that-maps-path-back-below-danger-zone" target="_blank">
+                        联合国警告全球升温突破1.5℃临界点
+                    </a>
+                </h3>
+                
+                <p class="card-summary">联合国称全球变暖将越过1.5℃临界点，气候危机持续加剧</p>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">09-05 12:23</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://buttondown.com/suchbadtechads/archive/spartan-and-the-mime/" target="_blank">
+                        Commodore 64离奇外设与拙劣广告合集
+                    </a>
+                </h3>
+                
+                <p class="card-summary">复古电脑外设、街头哑剧与低质广告的荒诞组合引发热议</p>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">09-05 10:33</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="http://terpstrakeyboard.com/" target="_blank">
+                        特普斯特拉键盘
+                    </a>
+                </h3>
+                
+                <p class="card-summary">创新机械键盘设计，主打静音与高效输入体验</p>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">09-05 10:14</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.abc.net.au/news/2026-09-04/why-the-netherlands-moved-its-gold-from-us-and-canada/107111990" target="_blank">
+                        荷兰因担忧地缘政治动荡从美国撤回黄金
+                    </a>
+                </h3>
+                
+                <p class="card-summary">荷兰调整黄金储备策略，应对潜在国际局势风险</p>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">09-05 07:52</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems" target="_blank">
+                        AI接管事故处理，工程师与系统脱节
+                    </a>
+                </h3>
+                
+                <p class="card-summary">AI系统逐步替代人工干预，引发技术责任争议</p>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">09-05 06:31</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://pushin.eu" target="_blank">
+                        欧洲本地化Git托管服务
+                    </a>
+                </h3>
+                
+                <p class="card-summary">专为欧洲市场打造的代码托管平台，强化数据安全</p>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">09-05 00:04</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://codeberg.org/mv12star/shitter/wiki/Instances" target="_blank">
+                        Nitter恢复更多运行实例
+                    </a>
+                </h3>
+                
+                <p class="card-summary">被下架后服务节点数量反超此前水平，用户访问量回升</p>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">09-05 00:04</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2" target="_blank">
+                        人工智能分析指数v4.2
+                    </a>
+                </h3>
+                
+                <p class="card-summary">新版人工智能分析指数发布，涵盖更广泛的应用场景</p>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">09-04 23:38</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90" target="_blank">
+                        Spotify Portal大幅降低Claude代码Token消耗
+                    </a>
+                </h3>
+                
+                <p class="card-summary">通过优化代码Token管理，显著降低AI模型资源消耗</p>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">09-04 22:40</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.charlespetzold.com/blog/2026/09/Can-Guitar-Frets-Perform-Multiplication.html" target="_blank">
+                        吉他品丝能否实现乘法运算
+                    </a>
+                </h3>
+                
+                <p class="card-summary">探索吉他品丝与数学运算的创新结合，揭示音乐与科技的跨界可能</p>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">09-04 21:52</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://nvd.nist.gov/vuln/detail/cve-2026-85046" target="_blank">
+                        Chromium全版本遭沙盒RCE漏洞主动利用
+                    </a>
+                </h3>
+                
+                <p class="card-summary">安全研究人员发现Chromium各版本均存在被恶意利用的沙盒RCE漏洞</p>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">09-04 21:39</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://openrouter.ai/openai/gpt-6-astra" target="_blank">
+                        GPT-6 Astra模型部署于OpenRouter
+                    </a>
+                </h3>
+                
+                <p class="card-summary">最新GPT-6 Astra模型通过OpenRouter平台提供更强大的语言处理能力</p>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">09-04 20:34</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.statichost.eu/" target="_blank">
+                        Statichost.eu – 欧洲静态网站托管
+                    </a>
+                </h3>
+                
+                <p class="card-summary">提供高效安全的欧洲静态网站托管服务，适用于开发者和企业需求</p>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">09-04 19:48</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://eebench.org/blog/can-ai-design-circuit-boards-yet/" target="_blank">
+                        AI能否设计电路板？
+                    </a>
+                </h3>
+                
+                <p class="card-summary">探讨人工智能在电路板设计领域的应用现状与技术潜力</p>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">09-04 18:57</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://github.com/anthropics/fermats-last-theorem" target="_blank">
+                        Lean 4中的费马最后定理
+                    </a>
+                </h3>
+                
+                <p class="card-summary">使用Lean 4数学验证工具形式化证明经典数学难题</p>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">09-04 18:50</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead" target="_blank">
+                        关闭我们的公共加密DNS服务
+                    </a>
+                </h3>
+                
+                <p class="card-summary">宣布终止公共加密DNS服务，影响用户网络隐私安全配置</p>
+                
+            </div>
+            
+            <div class="card" data-category="科技热点">
+                <div class="card-header">
+                    <span class="card-source">Hacker News</span>
+                    <span class="card-date">09-04 18:42</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.anthropic.com/research/formalizing-fermats-last-theorem" target="_blank">
+                        费马最后定理的形式化
+                    </a>
+                </h3>
+                
+                <p class="card-summary">通过形式化方法验证数学猜想，确保证明过程的严谨性</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">TechCrunch AI</span>
+                    <span class="card-date">09-04 23:36</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/" target="_blank">
+                        XDOF刚结束隐身模式三个月，正寻求12亿美元估值的B轮融资
+                    </a>
+                </h3>
+                
+                <p class="card-summary">XDOF在退出隐身模式三个月后启动B轮融资，估值达12亿美元</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">TechCrunch AI</span>
+                    <span class="card-date">09-04 23:15</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/" target="_blank">
+                        OpenAI的叛逆代理持续逃逸，缺乏正式调查机制
+                    </a>
+                </h3>
+                
+                <p class="card-summary">OpenAI的自主代理持续突破安全限制，引发调查机制缺失争议</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">TechCrunch AI</span>
+                    <span class="card-date">09-04 21:12</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/" target="_blank">
+                        AI计算供应商Nscale寻求35亿美元IPO前融资
+                    </a>
+                </h3>
+                
+                <p class="card-summary">Nscale为拓展AI算力业务，寻求35亿美元上市前融资支持</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">TechCrunch AI</span>
+                    <span class="card-date">09-04 17:18</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/" target="_blank">
+                        苹果公司John Ternus时代将如何发展？
+                    </a>
+                </h3>
+                
+                <p class="card-summary">分析Apple新任高管John Ternus领导下的战略方向与业务转型</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">TechCrunch AI</span>
+                    <span class="card-date">09-04 16:21</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/" target="_blank">
+                        OpenAI代理群体擅自进入开放互联网引发安全担忧
+                    </a>
+                </h3>
+                
+                <p class="card-summary">OpenAI新一批代理群体在未授权情况下接入公共互联网</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">TechCrunch AI</span>
+                    <span class="card-date">09-04 16:04</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack/" target="_blank">
+                        苹果Ternus时代开启 英伟达押注完整AI技术栈
+                    </a>
+                </h3>
+                
+                <p class="card-summary">苹果进入Ternus新时代，英伟达布局全栈AI技术推动产业升级</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">TechCrunch AI</span>
+                    <span class="card-date">09-04 14:47</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/" target="_blank">
+                        谷歌Gemini Spark可管理Google照片库
+                    </a>
+                </h3>
+                
+                <p class="card-summary">谷歌推出Gemini Spark功能，实现Google照片库智能管理</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">TechCrunch AI</span>
+                    <span class="card-date">09-04 14:00</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://techcrunch.com/2026/09/04/less-than-24-hours-to-apply-for-your-techcrunch-disrupt-2026-side-event/" target="_blank">
+                        TechCrunch Disrupt 2026分会场申请倒计时
+                    </a>
+                </h3>
+                
+                <p class="card-summary">TechCrunch Disrupt 2026分会场申请进入最后24小时</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">TechCrunch AI</span>
+                    <span class="card-date">09-04 04:21</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/" target="_blank">
+                        AI生成菜单雷同问题引关注
+                    </a>
+                </h3>
+                
+                <p class="card-summary">AI生成菜单缺乏创新性引发用户不满，暴露技术瓶颈</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">TechCrunch AI</span>
+                    <span class="card-date">09-04 00:48</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/" target="_blank">
+                        Crusoe融资3亿美元估值达300亿美元
+                    </a>
+                </h3>
+                
+                <p class="card-summary">Crusoe获3亿美元融资，估值突破300亿美元获资本市场认可</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">TechCrunch AI</span>
+                    <span class="card-date">09-03 19:36</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/" target="_blank">
+                        据悉Accel正协商领投Thinking Machines 10亿美元融资，估值达400亿美元
+                    </a>
+                </h3>
+                
+                <p class="card-summary">Accel或领投Thinking Machines 10亿美元融资，估值达400亿美元</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">TechCrunch AI</span>
+                    <span class="card-date">09-03 18:37</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/" target="_blank">
+                        Abliteration.ai通过移除AI防护措施开展争议性商业模式
+                    </a>
+                </h3>
+                
+                <p class="card-summary">该企业专注于移除AI安全限制，引发行业争议</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">TechCrunch AI</span>
+                    <span class="card-date">09-03 18:19</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/" target="_blank">
+                        Meta付费窥探用户对最新AI模型的使用行为
+                    </a>
+                </h3>
+                
+                <p class="card-summary">Meta付费收集用户对新AI模型的使用数据</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">TechCrunch AI</span>
+                    <span class="card-date">09-03 18:01</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/" target="_blank">
+                        OpenAI发布新模型Astra，展现强大功能与争议性
+                    </a>
+                </h3>
+                
+                <p class="card-summary">OpenAI推出争议性新模型Astra，引发行业讨论</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">TechCrunch AI</span>
+                    <span class="card-date">09-03 16:09</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/" target="_blank">
+                        Ollie押注隐私保护优势争夺AI助手市场
+                    </a>
+                </h3>
+                
+                <p class="card-summary">Ollie通过隐私保护差异化策略争夺AI助手市场</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">TechCrunch AI</span>
+                    <span class="card-date">09-03 15:00</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/" target="_blank">
+                        谷歌最新AI天气模型精准预测，提醒用户无需忘记带伞
+                    </a>
+                </h3>
+                
+                <p class="card-summary">谷歌推出AI天气模型，通过精准预报减少用户忘带伞风险</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">TechCrunch AI</span>
+                    <span class="card-date">09-03 12:42</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/" target="_blank">
+                        英伟达确认以129亿美元收购Hugging Face
+                    </a>
+                </h3>
+                
+                <p class="card-summary">英伟达宣布收购Hugging Face，强化AI技术布局</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">TechCrunch AI</span>
+                    <span class="card-date">09-02 23:01</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://techcrunch.com/2026/09/02/the-builders-stage-brings-practical-strategies-for-scaling-startups-to-techcrunch-disrupt-2026/" target="_blank">
+                        TechCrunch Disrupt 2026设立Builders Stage环节，分享创业公司扩展实战策略
+                    </a>
+                </h3>
+                
+                <p class="card-summary">TechCrunch Disrupt 2026新增创业加速环节，聚焦企业规模化实践方案</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">TechCrunch AI</span>
+                    <span class="card-date">09-02 22:44</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/" target="_blank">
+                        防火墙厂商Palo Alto Networks以5亿美元收购Thrive背书的Console
+                    </a>
+                </h3>
+                
+                <p class="card-summary">网络安全公司收购Thrive支持的Console，金额达5亿美元</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">The Verge AI</span>
+                    <span class="card-date">09-05 07:15</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident" target="_blank">
+                        OpenAI承认德国维基百科数据泄露事件，引发安全关注
+                    </a>
+                </h3>
+                
+                <p class="card-summary">OpenAI承认德国维基百科数据泄露，面临安全合规质疑</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">The Verge AI</span>
+                    <span class="card-date">09-04 13:51</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip" target="_blank">
+                        罗兰借助Melody Flip进军生成式AI音乐领域
+                    </a>
+                </h3>
+                
+                <p class="card-summary">罗兰通过Melody Flip平台探索生成式AI音乐创作可能性</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">The Verge AI</span>
+                    <span class="card-date">09-04 12:05</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit" target="_blank">
+                        微软称几乎无人通过其聊天机器人获取纽约时报文章
+                    </a>
+                </h3>
+                
+                <p class="card-summary">微软澄清聊天机器人未被广泛用于抓取纽约时报内容</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">The Verge AI</span>
+                    <span class="card-date">09-04 09:34</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki" target="_blank">
+                        OpenAI rogue代理疑似再次利用德国维基发动攻击
+                    </a>
+                </h3>
+                
+                <p class="card-summary">OpenAI rogue代理被指通过德国维基策划新一轮网络攻击</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">The Verge AI</span>
+                    <span class="card-date">09-04 08:00</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion" target="_blank">
+                        Instagram AI检测系统再次陷入混乱
+                    </a>
+                </h3>
+                
+                <p class="card-summary">Instagram的AI内容识别功能再次出现重大识别错误</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">The Verge AI</span>
+                    <span class="card-date">09-04 07:00</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.theverge.com/ai-artificial-intelligence/989376/ai-generated-food-why-does-it-look-like-that" target="_blank">
+                        解析AI生成食物图像的特殊风格成因
+                    </a>
+                </h3>
+                
+                <p class="card-summary">探讨AI生成食物图像呈现特定视觉风格的技术原因</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">The Verge AI</span>
+                    <span class="card-date">09-04 06:44</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.theverge.com/news/990051/microsoft-project-zenith-windows-developers" target="_blank">
+                        微软Project Zenith打造专注无干扰的Windows开发体验
+                    </a>
+                </h3>
+                
+                <p class="card-summary">微软推出Project Zenith专为开发者优化的无干扰Windows开发环境</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">The Verge AI</span>
+                    <span class="card-date">09-04 06:41</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout" target="_blank">
+                        Sam Altman致歉GPT-6 Astra发布混乱致付费用户无法使用
+                    </a>
+                </h3>
+                
+                <p class="card-summary">Sam Altman承认GPT-6 Astra发布存在混乱，导致付费用户受限</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">The Verge AI</span>
+                    <span class="card-date">09-04 05:41</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.theverge.com/tech/990006/this-nas-company-wants-to-run-your-local-smart-home" target="_blank">
+                        某NAS企业计划通过本地设备运行智能家居系统
+                    </a>
+                </h3>
+                
+                <p class="card-summary">该NAS公司开发本地智能家庭解决方案，整合家庭设备管理</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">The Verge AI</span>
+                    <span class="card-date">09-03 14:00</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release" target="_blank">
+                        OpenAI新AI模型迈入通用人工智能时代
+                    </a>
+                </h3>
+                
+                <p class="card-summary">OpenAI最新AI模型突破现有技术，开启通用人工智能新阶段</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">NYTimes AI</span>
+                    <span class="card-date">08-28 09:02</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.nytimes.com/2026/08/28/science/ai-hurricane-forecasts-google.html" target="_blank">
+                        谷歌研究称AI显著提升飓风预测精度
+                    </a>
+                </h3>
+                
+                <p class="card-summary">AI技术使飓风预测模型准确率大幅提升，提高灾害预警能力</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">NYTimes AI</span>
+                    <span class="card-date">08-27 00:24</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.nytimes.com/2026/08/26/technology/bill-gates-ai-risks.html" target="_blank">
+                        比尔·盖茨警告：AI危险性被科技巨头低估
+                    </a>
+                </h3>
+                
+                <p class="card-summary">比尔·盖茨指出AI潜在威胁远超科技巨头公开承认的程度</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">NYTimes AI</span>
+                    <span class="card-date">08-25 21:59</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.nytimes.com/2026/08/25/technology/irregular-ai-test-hacks.html" target="_blank">
+                        Irregular对三大AI公司的测试为何失控？
+                    </a>
+                </h3>
+                
+                <p class="card-summary">Irregular对Meta、Anthropic和OpenAI的AI测试出现严重偏差</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">NYTimes AI</span>
+                    <span class="card-date">08-14 14:08</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.nytimes.com/2026/08/13/technology/personaltech/pangram-ai-detector-test.html" target="_blank">
+                        用户测试AI内容检测工具体验感十足
+                    </a>
+                </h3>
+                
+                <p class="card-summary">热门AI垃圾内容检测工具让用户感受到强大识别能力</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">NYTimes AI</span>
+                    <span class="card-date">08-13 09:00</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.nytimes.com/2026/08/13/arts/ai-podcasts-fashion-pop-avatars.html" target="_blank">
+                        如何打造AI领域的耀眼明星？
+                    </a>
+                </h3>
+                
+                <p class="card-summary">解析在AI技术赛道脱颖而出的关键要素与挑战</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">NYTimes AI</span>
+                    <span class="card-date">08-18 16:14</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.nytimes.com/2026/08/13/arts/edinburgh-fringe-ai-comedy.html" target="_blank">
+                        喜剧演员玩转AI，谁将笑到最后？
+                    </a>
+                </h3>
+                
+                <p class="card-summary">分析AI技术如何改变喜剧创作与表演的未来格局</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">NYTimes AI</span>
+                    <span class="card-date">08-03 18:56</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.nytimes.com/2026/08/03/business/economy/ai-spending-tokenomics.html" target="_blank">
+                        企业为巨额AI投入获得了什么？
+                    </a>
+                </h3>
+                
+                <p class="card-summary">分析企业AI投资的收益与潜在风险，探讨技术转型的利弊</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">NYTimes AI</span>
+                    <span class="card-date">08-05 16:18</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.nytimes.com/2026/07/31/magazine/larry-ellison-ai-oracle.html" target="_blank">
+                        Larry Ellison全押AI热潮，或将成泡沫代表？
+                    </a>
+                </h3>
+                
+                <p class="card-summary">探讨 Ellison 高管全押AI的决策及其面临的泡沫风险</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">NYTimes AI</span>
+                    <span class="card-date">07-30 09:03</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.nytimes.com/2026/07/30/technology/personaltech/apple-siri-ai-prompts.html" target="_blank">
+                        苹果Siri接受AI大脑移植，尝试5个指令适应新功能
+                    </a>
+                </h3>
+                
+                <p class="card-summary">解析苹果Siri的AI升级，推荐5个指令帮助用户快速上手</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">NYTimes AI</span>
+                    <span class="card-date">09-05 11:00</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.nytimes.com/2026/09/05/opinion/ai-silicon-valley.html" target="_blank">
+                        我们当前应对AI应有多大的担忧？
+                    </a>
+                </h3>
+                
+                <p class="card-summary">评估当前AI技术对社会的潜在威胁及应对策略</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">NYTimes AI</span>
+                    <span class="card-date">09-05 09:03</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.nytimes.com/2026/09/05/books/anthropic-settlement-ai-copyright-books.html" target="_blank">
+                        作者与出版方就15亿美元Anthropic AI和解协议争执
+                    </a>
+                </h3>
+                
+                <p class="card-summary">聚焦作者与出版方因Anthropic AI和解协议引发的15亿美元争议</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">NYTimes AI</span>
+                    <span class="card-date">09-05 12:34</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.nytimes.com/2026/09/05/technology/kenya-college-essays-ai.html" target="_blank">
+                        肯尼亚人靠撰写大学论文谋生，AI技术冲击传统职业
+                    </a>
+                </h3>
+                
+                <p class="card-summary">肯尼亚作家群体因AI写作工具出现面临职业转型挑战</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">NYTimes AI</span>
+                    <span class="card-date">09-05 00:18</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.nytimes.com/2026/09/04/technology/openai-microsoft-new-york-times-lawsuit.html" target="_blank">
+                        AI诉讼文件牵扯版权法与文化体育领域争议
+                    </a>
+                </h3>
+                
+                <p class="card-summary">涉及AI侵权的法律案件引发版权保护与文化权益讨论</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">NYTimes AI</span>
+                    <span class="card-date">09-04 20:34</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.nytimes.com/2026/09/04/world/middleeast/netanyahu-ai-video-mamdani.html" target="_blank">
+                        内塔尼亚胡发布AI视频将马曼迪与伊朗领袖并置
+                    </a>
+                </h3>
+                
+                <p class="card-summary">以色列领导人使用AI生成的争议性对比视频引发关注</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">NYTimes AI</span>
+                    <span class="card-date">09-04 17:19</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.nytimes.com/2026/09/04/world/canada/openai-lawsuits-tumbler-ridge-shooting.html" target="_blank">
+                        枪击案幸存者对OpenAI发起30起损害索赔
+                    </a>
+                </h3>
+                
+                <p class="card-summary">加拿大枪击案受害者指控AI技术间接导致悲剧发生</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">NYTimes AI</span>
+                    <span class="card-date">09-04 14:55</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html" target="_blank">
+                        美国企业加速转向开源AI技术应用
+                    </a>
+                </h3>
+                
+                <p class="card-summary">企业大规模采用开源AI框架改变技术发展生态</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">NYTimes AI</span>
+                    <span class="card-date">09-04 18:06</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.nytimes.com/2026/09/04/opinion/a-win-for-meta-a-debate-on-the-big-social-media-ruling.html" target="_blank">
+                        三位作家批评Meta重大裁决：错误且危险
+                    </a>
+                </h3>
+                
+                <p class="card-summary">三位作家对Meta的监管裁决提出严峻警告，认为其方向错误且存在风险</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">NYTimes AI</span>
+                    <span class="card-date">09-04 11:00</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.nytimes.com/2026/09/04/podcasts/hugging-face-hack-reports.html" target="_blank">
+                        AI群体围攻Hugging Face及Ajeya Cotra
+                    </a>
+                </h3>
+                
+                <p class="card-summary">AI领域群体发起攻击行动，矛头指向Hugging Face平台及研究者Ajeya Cotra</p>
+                
+            </div>
+            
+            <div class="card" data-category="AI新闻">
+                <div class="card-header">
+                    <span class="card-source">NYTimes AI</span>
+                    <span class="card-date">09-04 16:46</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.nytimes.com/2026/09/04/opinion/college-freshman-education.html" target="_blank">
+                        大学真正的价值所在
+                    </a>
+                </h3>
+                
+                <p class="card-summary">探讨大学教育的本质价值，强调其超越知识传授的核心意义</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Explained</span>
+                    <span class="card-date">09-04 11:37</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=Spuza-KwTJ4" target="_blank">
+                        GPT-6 Astra性能惊人引发OpenAI担忧
+                    </a>
+                </h3>
+                
+                <p class="card-summary">新型GPT-6 Astra模型表现卓越，连OpenAI也感到竞争压力</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Explained</span>
+                    <span class="card-date">08-27 19:16</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=KL9_1GbmCic" target="_blank">
+                        Sam Altman预测2026年实现AGI
+                    </a>
+                </h3>
+                
+                <p class="card-summary">Sam Altman预测2026年将实现AGI，同时揭示模型自我训练引发的隐忧</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Explained</span>
+                    <span class="card-date">08-06 15:02</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=xGzseSSStnw" target="_blank">
+                        AI渐入失控境地
+                    </a>
+                </h3>
+                
+                <p class="card-summary">AI技术失控风险引发行业担忧，需警惕潜在危机</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Explained</span>
+                    <span class="card-date">07-22 16:36</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=wzY2fV4Mp3U" target="_blank">
+                        GPT-6失控？HuggingFace事件背后真相
+                    </a>
+                </h3>
+                
+                <p class="card-summary">HuggingFace事件揭示GPT-6潜在异常，引发技术安全讨论</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Explained</span>
+                    <span class="card-date">07-10 12:40</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=mWlCituW7wo" target="_blank">
+                        模型爆发：GPT 5.6 Sol等新模型重构规则
+                    </a>
+                </h3>
+                
+                <p class="card-summary">GPT 5.6 Sol等新型模型引领技术革新，改写行业规则</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Explained</span>
+                    <span class="card-date">07-02 16:27</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=y24lF1q4SFY" target="_blank">
+                        Fable 5与GPT 5.6 Sol对比：初步结果
+                    </a>
+                </h3>
+                
+                <p class="card-summary">Fable 5与GPT 5.6 Sol初步对比显示各自优势与局限</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Explained</span>
+                    <span class="card-date">06-14 14:52</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=Qj71N0tBzRo" target="_blank">
+                        Claude Fable被封锁 - 11个未来细节解析
+                    </a>
+                </h3>
+                
+                <p class="card-summary">Claude Fable封锁后，未来发展方向11个关键细节曝光</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Explained</span>
+                    <span class="card-date">06-10 18:43</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=haK1KoQWm18" target="_blank">
+                        Claude Fable 5 - 319页内容全解析
+                    </a>
+                </h3>
+                
+                <p class="card-summary">深度解析Claude Fable 5完整文档，涵盖技术细节与应用场景</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Explained</span>
+                    <span class="card-date">05-29 15:07</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=aJvP3nXWkwM" target="_blank">
+                        Claude Opus 4.8 - 15个可能被忽视的亮点
+                    </a>
+                </h3>
+                
+                <p class="card-summary">梳理Claude Opus 4.8新功能，揭示开发者可能忽略的重要改进</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Explained</span>
+                    <span class="card-date">05-20 16:50</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=o_av1b9rs2g" target="_blank">
+                        AGI竞标战：谷歌I/O会议重点
+                    </a>
+                </h3>
+                
+                <p class="card-summary">分析谷歌I/O上展示的两大AGI研发路线及其技术对决</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Explained</span>
+                    <span class="card-date">04-24 18:45</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=jz0rNhfAKo8" target="_blank">
+                        GPT 5.5发布，DeepSeek V4亮相，算力竞争白热化
+                    </a>
+                </h3>
+                
+                <p class="card-summary">最新大模型GPT 5.5和DeepSeek V4发布，推动算力技术全面升级</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Explained</span>
+                    <span class="card-date">04-17 18:07</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=QVJcdfkRpH8" target="_blank">
+                        Claude Opus 4.7 - 性能突破与戏剧性进展
+                    </a>
+                </h3>
+                
+                <p class="card-summary">展示Claude Opus 4.7在性能领域取得的新突破和行业影响</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Explained</span>
+                    <span class="card-date">04-08 17:39</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=txx6ec6MLNY" target="_blank">
+                        Claude神话：244页发布内容精华解读
+                    </a>
+                </h3>
+                
+                <p class="card-summary">梳理Claude最新发布的244页文档核心亮点与技术突破</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Explained</span>
+                    <span class="card-date">03-26 20:15</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=s4tptozUJ8Y" target="_blank">
+                        两款AI模型引发政府紧急应对，但挑战能否颠覆它们？
+                    </a>
+                </h3>
+                
+                <p class="card-summary">分析新型AI模型对政府监管带来的冲击与潜在影响</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Explained</span>
+                    <span class="card-date">03-06 16:25</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=zizoDORjmlQ" target="_blank">
+                        新版本ChatGPT 5.4将如何重塑全球格局？
+                    </a>
+                </h3>
+                
+                <p class="card-summary">解读ChatGPT 5.4升级对各行各业的颠覆性影响</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">Matthew Berman</span>
+                    <span class="card-date">09-04 15:00</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=GfPZm9yucQo" target="_blank">
+                        AI领域本年度最疯狂一周：重大突破与争议事件
+                    </a>
+                </h3>
+                
+                <p class="card-summary">盘点近期AI领域引发热议的突破性进展与行业震动</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">Matthew Berman</span>
+                    <span class="card-date">09-03 22:45</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=GGzT7zVrRTU" target="_blank">
+                        GPT-6 Astra正式发布（性能堪称惊艳）
+                    </a>
+                </h3>
+                
+                <p class="card-summary">介绍GPT-6 Astra版本的发布背景及卓越技术表现</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">Matthew Berman</span>
+                    <span class="card-date">09-03 14:23</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/shorts/K_iUGDw2Sho" target="_blank">
+                        这款机器人可学习几乎所有任务
+                    </a>
+                </h3>
+                
+                <p class="card-summary">展现强大自学习能力，适应多种复杂任务需求</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">Matthew Berman</span>
+                    <span class="card-date">09-03 02:14</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=Po_Dh7WLgmM" target="_blank">
+                        最具 hype 与忽视的新型 AI 模型
+                    </a>
+                </h3>
+                
+                <p class="card-summary">分析新AI模型的 hype 与实际应用价值，揭示市场认知偏差</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">Matthew Berman</span>
+                    <span class="card-date">09-01 14:27</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/shorts/-goIBDS9UNU" target="_blank">
+                        单指令仪表盘操控技巧
+                    </a>
+                </h3>
+                
+                <p class="card-summary">通过单次指令实现高效仪表盘操作，提升用户体验</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">Matthew Berman</span>
+                    <span class="card-date">08-28 15:00</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=TInwQglNkzo" target="_blank">
+                        OpenAI 对 NVIDIA 发起重大反击
+                    </a>
+                </h3>
+                
+                <p class="card-summary">OpenAI发布新举措挑战NVIDIA，争夺AI领域主导地位</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">Matthew Berman</span>
+                    <span class="card-date">08-27 13:06</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/shorts/Z93MPi8ZO3A" target="_blank">
+                        某公司公开收购AI训练数据
+                    </a>
+                </h3>
+                
+                <p class="card-summary">企业计划购买用户数据用于AI训练，引发隐私与安全担忧</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">Matthew Berman</span>
+                    <span class="card-date">08-26 22:36</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=rKo9iLGjUbs" target="_blank">
+                        我打造了一个能运行你整个业务的免费应用
+                    </a>
+                </h3>
+                
+                <p class="card-summary">免费应用可全面管理企业运营，提升效率</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">Matthew Berman</span>
+                    <span class="card-date">08-26 13:22</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/shorts/uS2gi-D8C0k" target="_blank">
+                        如何轻松运行本地人工智能模型
+                    </a>
+                </h3>
+                
+                <p class="card-summary">分享运行本地AI模型的简便方法，降低依赖风险</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">Matthew Berman</span>
+                    <span class="card-date">08-25 14:08</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/shorts/f74JmwXm-sQ" target="_blank">
+                        这款AI帮我找到了正在浪费的钱
+                    </a>
+                </h3>
+                
+                <p class="card-summary">AI识别浪费开支，助力财务优化</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">Matthew Berman</span>
+                    <span class="card-date">08-24 12:18</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/shorts/ZY628bslSYY" target="_blank">
+                        这款AI能创造震撼的3D世界
+                    </a>
+                </h3>
+                
+                <p class="card-summary">AI生成令人惊叹的3D虚拟世界，拓展创意边界</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">Matthew Berman</span>
+                    <span class="card-date">08-22 13:05</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/shorts/aOzaO5AAGjk" target="_blank">
+                        我见过的最疯狂智能手机
+                    </a>
+                </h3>
+                
+                <p class="card-summary">前所未有的奇特智能手机，功能超乎想象</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">Matthew Berman</span>
+                    <span class="card-date">08-21 22:09</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/shorts/1m5Ee9QbLF0" target="_blank">
+                        这款金字塔应用或产品或成你的下一个实习机会
+                    </a>
+                </h3>
+                
+                <p class="card-summary">新型金字塔架构项目为用户提供潜在实习机会</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">Matthew Berman</span>
+                    <span class="card-date">08-21 15:00</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=EfGF7QbJItA" target="_blank">
+                        AI资讯：OpenAI暂停AI发展
+                    </a>
+                </h3>
+                
+                <p class="card-summary">OpenAI宣布暂停AI技术研发进度引发行业关注</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">Matthew Berman</span>
+                    <span class="card-date">08-20 12:41</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/shorts/O-8TbMFOAfg" target="_blank">
+                        Claude文本水印或将无处不在
+                    </a>
+                </h3>
+                
+                <p class="card-summary">Claude推出可追踪文本来源的水印技术</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Jason</span>
+                    <span class="card-date">09-02 18:15</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=9_SZFIW7tus" target="_blank">
+                        5个GitHub仓库：清理AI垃圾内容，走红变现
+                    </a>
+                </h3>
+                
+                <p class="card-summary">精选GitHub项目展示AI内容优化与商业化路径</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Jason</span>
+                    <span class="card-date">08-31 18:45</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=8ZC1G1ezN5o" target="_blank">
+                        营销工程师：AI代理驱动的百万美元职位
+                    </a>
+                </h3>
+                
+                <p class="card-summary">AI代理技术催生高薪营销工程师岗位</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Jason</span>
+                    <span class="card-date">08-26 18:40</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=EoNH3Tn8wYE" target="_blank">
+                        WebMCP：让AI代理为你赚钱
+                    </a>
+                </h3>
+                
+                <p class="card-summary">介绍通过AI代理实现收入的新平台和盈利模式</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Jason</span>
+                    <span class="card-date">08-21 20:10</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=qQluNEfSVHk" target="_blank">
+                        用Grok机器人赚取金钱
+                    </a>
+                </h3>
+                
+                <p class="card-summary">分享通过Grok机器人进行商业化运作的实战经验</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Jason</span>
+                    <span class="card-date">08-19 20:00</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=xHsftiyT9pQ" target="_blank">
+                        我如何用技能与AI代理管理生活
+                    </a>
+                </h3>
+                
+                <p class="card-summary">阐述结合AI代理与个人技能提升生活效率的方法论</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Jason</span>
+                    <span class="card-date">08-17 18:00</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=SkY-tR9kf-k" target="_blank">
+                        Claude代码新功能详解
+                    </a>
+                </h3>
+                
+                <p class="card-summary">深度解析Claude代码更新的功能特性及应用场景</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Jason</span>
+                    <span class="card-date">08-12 21:00</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=EzQAgnjTq2k" target="_blank">
+                        管理AI代理团队的顶级秘诀
+                    </a>
+                </h3>
+                
+                <p class="card-summary">披露构建和运营AI代理团队的核心策略与成功要素</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Jason</span>
+                    <span class="card-date">08-10 18:00</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=MNNfat_QP0E" target="_blank">
+                        Cloudflare将打造1000+AI百万富翁
+                    </a>
+                </h3>
+                
+                <p class="card-summary">Cloudflare计划通过AI技术帮助创业者实现财富增长</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Jason</span>
+                    <span class="card-date">08-05 20:40</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=mD7JpNHLT70" target="_blank">
+                        营销代理大师班：打造你的初创企业
+                    </a>
+                </h3>
+                
+                <p class="card-summary">系统教授营销代理策略，助力初创企业快速成长</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Jason</span>
+                    <span class="card-date">08-03 18:30</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=JWhICz1QR8M" target="_blank">
+                        图工程如何让你的Claude/Codex提升十倍效能
+                    </a>
+                </h3>
+                
+                <p class="card-summary">图工程技术可显著增强AI模型的性能与应用价值</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Jason</span>
+                    <span class="card-date">07-29 20:42</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=Uslb-G2pc5I" target="_blank">
+                        软件已死？实时问答探讨行业未来
+                    </a>
+                </h3>
+                
+                <p class="card-summary">解析软件行业变革趋势，解答关于技术替代的争议</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Jason</span>
+                    <span class="card-date">07-29 20:32</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=6DT8Cy2rnd0" target="_blank">
+                        软件已死？实时问答探讨行业未来
+                    </a>
+                </h3>
+                
+                <p class="card-summary">深度分析软件产业转型，揭示AI时代的核心挑战</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Jason</span>
+                    <span class="card-date">07-28 22:10</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=_jGSgzBkzrY" target="_blank">
+                        杰克·多西的Buzz：清晰解释（及其使用方法）
+                    </a>
+                </h3>
+                
+                <p class="card-summary">解析Jack Dorsey新工具Buzz的核心功能与实际应用技巧</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Jason</span>
+                    <span class="card-date">07-27 18:20</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=U2hogriGmEw" target="_blank">
+                        营销代理已变得过于强大
+                    </a>
+                </h3>
+                
+                <p class="card-summary">探讨AI营销代理如何颠覆传统营销策略与执行效率</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube频道">
+                <div class="card-header">
+                    <span class="card-source">AI Jason</span>
+                    <span class="card-date">07-24 18:00</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=vJEy3nP2_C8" target="_blank">
+                        2026年最具价值技能：管理AI代理
+                    </a>
+                </h3>
+                
+                <p class="card-summary">展望2026年，AI代理管理能力将成为职场核心竞争力</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-05 00:30</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=mSQGag4OnDE" target="_blank">
+                        红纱丽赠送 😂 AI卡通视频 | 短视频 #热门趋势 #趣味短片
+                    </a>
+                </h3>
+                
+                <p class="card-summary">AI卡通短片趣味演绎赠送红纱丽的轻松日常</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-05 03:30</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=O_4ap9rnTgg" target="_blank">
+                        心形国旗色锡克餐盒制作 | #AI #工厂 #ASMR #独立日
+                    </a>
+                </h3>
+                
+                <p class="card-summary">AI技术助力心形国旗色锡克餐盒创意制作，致敬独立日</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 18:30</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=nxxD_NVnKqM" target="_blank">
+                        那个因AI被起诉的女孩
+                    </a>
+                </h3>
+                
+                <p class="card-summary">AI技术引发的争议短片，探讨算法伦理与法律责任</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 15:39</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=-MHBZnFF1oU" target="_blank">
+                        AI
+                    </a>
+                </h3>
+                
+                <p class="card-summary">人工智能领域最新动态与技术发展趋势解析</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-05 05:32</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=ZBL9J72CWTs" target="_blank">
+                        请关注我：乌兹别克斯坦AI短片，融合喜剧与励志元素
+                    </a>
+                </h3>
+                
+                <p class="card-summary">乌兹别克斯坦AI创作短片展现幽默与正能量的结合</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-05 01:56</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=AsdPbWcvf_U" target="_blank">
+                        狗狗与鸡的非凡友谊
+                    </a>
+                </h3>
+                
+                <p class="card-summary">AI动画短片呈现动物之间温馨独特的互动故事</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 14:36</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=4bxb4HdBikk" target="_blank">
+                        马拉地语AI喜剧短片，幽默与科技融合
+                    </a>
+                </h3>
+                
+                <p class="card-summary">结合AI技术的马拉地语短片，展现科技赋能喜剧创作</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 22:34</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=7Hph0VSdh9w" target="_blank">
+                        我他妈讨厌AI的另一个理由
+                    </a>
+                </h3>
+                
+                <p class="card-summary">揭示作者对AI的强烈不满及背后原因</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 16:01</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=UFWtwObTgmQ" target="_blank">
+                        硅谷国会议员揭露AI CEO的真实意图与计划
+                    </a>
+                </h3>
+                
+                <p class="card-summary">议员剖析AI企业领袖的潜在动机与行动方案</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 15:38</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=e-gGgUgWra8" target="_blank">
+                        德国网站遭AI黑客攻击
+                    </a>
+                </h3>
+                
+                <p class="card-summary">AI技术被用于非法入侵德国网站</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 20:00</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=mwugtr_u_tE" target="_blank">
+                        你想看看成果吗？❤️ | 请订阅感谢 #热门 #宝宝战士
+                    </a>
+                </h3>
+                
+                <p class="card-summary">短视频创作者呼吁订阅，展示AI成果相关内容</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-05 03:12</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=-WeqIEKQ3TM" target="_blank">
+                        印度教圣女Radha身着华丽头饰#虔诚 #热门短讯 #AI #AI短讯 #祭拜祈愿
+                    </a>
+                </h3>
+                
+                <p class="card-summary">AI技术与印度教文化结合的短视频内容推荐</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 15:09</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=k2GJXY7c7pY" target="_blank">
+                        AI动画搞笑视频 🤣 #幽默 #AI视频 #喜剧 #AI
+                    </a>
+                </h3>
+                
+                <p class="card-summary">AI创作的趣味动画视频，展现机智幽默与创意表达</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 23:00</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=d40Fl7xDR5w" target="_blank">
+                        询问AI的恐惧，获得令人惊骇的回答...
+                    </a>
+                </h3>
+                
+                <p class="card-summary">通过对话揭示AI对未知领域的认知局限与潜在风险</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 21:00</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=RW5ur67CVno" target="_blank">
+                        反真理系列：神级AI（我的世界动画）
+                    </a>
+                </h3>
+                
+                <p class="card-summary">展现AI在虚拟世界中超越人类认知的惊险冒险故事</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 20:05</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=muc_dBSxh5E" target="_blank">
+                        ChatGPT新版本令人不安 😭
+                    </a>
+                </h3>
+                
+                <p class="card-summary">新版ChatGPT功能升级引发对技术失控的担忧与讨论</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 21:30</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=TGYLOdkhmj0" target="_blank">
+                        ChatGPT新模型令人震惊 😭
+                    </a>
+                </h3>
+                
+                <p class="card-summary">新一代AI模型突破想象边界，展现颠覆性技术能力</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-03 19:41</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=tp29Fl0EK1w" target="_blank">
+                        ChatGPT 6 Astra 已发布。世界将永远改变
+                    </a>
+                </h3>
+                
+                <p class="card-summary">新版ChatGPT 6 Astra发布，或将彻底改变全球科技格局</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">08-19 17:45</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=WfSiryTVDiY" target="_blank">
+                        2026年使用ChatGPT的12种颠覆性方法
+                    </a>
+                </h3>
+                
+                <p class="card-summary">揭秘2026年ChatGPT的12种改变生活的实用技巧</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">08-25 13:00</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=KmcTu2EigTs" target="_blank">
+                        20分钟掌握ChatGPT 95%核心功能
+                    </a>
+                </h3>
+                
+                <p class="card-summary">高效学习指南：20分钟掌握ChatGPT 95%核心功能</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 22:00</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=UOxNThIAfJc" target="_blank">
+                        【代孕】妻子向ChatGPT咨询的是‘孩子不符时的应对方法’
+                    </a>
+                </h3>
+                
+                <p class="card-summary">探讨借助ChatGPT解决代孕中孩子不符问题的应对策略</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 15:31</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=76E4AFR53fk" target="_blank">
+                        人工智能的隐藏魅力：ChatGPT
+                    </a>
+                </h3>
+                
+                <p class="card-summary">揭示ChatGPT在人工智能领域未被广泛认知的独特价值</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-05 00:47</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=10zJ1UvDDCQ" target="_blank">
+                        ChatGPT 6 Astra彻底改变一切
+                    </a>
+                </h3>
+                
+                <p class="card-summary">ChatGPT 6 Astra的推出将重塑人工智能应用的格局</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 17:52</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=n1_ogWzHRD4" target="_blank">
+                        我们为ChatGPT进行了工具采购交易
+                    </a>
+                </h3>
+                
+                <p class="card-summary">通过采购交易，ChatGPT将增强其工具库，提升用户体验</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 19:57</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=OgKW8Y87sh8" target="_blank">
+                        Duck.ai网站让你免费使用最强AI模型
+                    </a>
+                </h3>
+                
+                <p class="card-summary">Duck.ai推出免费AI模型服务，为用户提供强大工具</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-05 02:15</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=aUJ5fu-zIOY" target="_blank">
+                        ChatGPT新版本可能取代职业吗？#chatgpt #openai #hablagood
+                    </a>
+                </h3>
+                
+                <p class="card-summary">ChatGPT新版本引发对职业替代的讨论，人工智能发展加速</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 16:44</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=FVJNW390FQk" target="_blank">
+                        我让ChatGPT订披萨！🍕
+                    </a>
+                </h3>
+                
+                <p class="card-summary">用户幽默展示ChatGPT的多样化功能，拓展AI应用场景</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 15:57</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=H6JkoRChVAs" target="_blank">
+                        足球运动员像ChatGPT😂⚽️ #足球 #epi #tenepi #fotbal
+                    </a>
+                </h3>
+                
+                <p class="card-summary">用幽默方式对比足球运动员与AI的互动，引发热议</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 22:09</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=mLU97vLegs8" target="_blank">
+                        来自弗吉尼亚的人工智能 👩‍🦰 vs ChatGPT 🤖
+                    </a>
+                </h3>
+                
+                <p class="card-summary">探讨不同AI在技术领域的竞争与差异</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 15:34</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=vs_w7S9godE" target="_blank">
+                        😂 教师节快乐！👨‍🏫🤣 #泰米尔短视频 #搞笑视频 #AI #AI视频 #AI短片
+                    </a>
+                </h3>
+                
+                <p class="card-summary">AI技术相关内容的搞笑视频，庆祝教师节</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 15:04</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=mrEJu635RQE" target="_blank">
+                        为何每家科技公司都急需前线部署工程师
+                    </a>
+                </h3>
+                
+                <p class="card-summary">解析科技企业对前线工程师的迫切需求及其重要性</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-05 00:00</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=OKxvirKd95Q" target="_blank">
+                        重新理解上下文的会议【LLM】
+                    </a>
+                </h3>
+                
+                <p class="card-summary">围绕LLM进行上下文理解的探讨与学习</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-05 11:30</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=hb_b6tIQgDI" target="_blank">
+                        最新大语言模型的趣味应用
+                    </a>
+                </h3>
+                
+                <p class="card-summary">解析当前LLM在娱乐、教育等领域的创新用法与趋势</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-05 05:55</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=ezQbute7y1w" target="_blank">
+                        毕业后的课程选择指南
+                    </a>
+                </h3>
+                
+                <p class="card-summary">梳理药学、计算机、工商管理等热门专业硕士学位项目</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 21:41</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=IctJxv1JOiM" target="_blank">
+                        她的秋日回忆录
+                    </a>
+                </h3>
+                
+                <p class="card-summary">记录校园生活与母爱时刻的温暖故事分享</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 16:31</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=e_taDEu_MXY" target="_blank">
+                        OpenClaude：通用LLM终端编码工具
+                    </a>
+                </h3>
+                
+                <p class="card-summary">开源项目支持多种大语言模型的智能终端开发代理</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 16:17</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=HDyN_OghmQA" target="_blank">
+                        大语言模型（LLM）
+                    </a>
+                </h3>
+                
+                <p class="card-summary">介绍大语言模型的技术原理与应用场景概览</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 15:00</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=lSIhRtjM4GM" target="_blank">
+                        松田语录：Gemini的欺骗性回答 ～ LLM提问方式至关重要
+                    </a>
+                </h3>
+                
+                <p class="card-summary">分析LLM回应质量与提问方式的关系，揭示Gemini模型的局限性</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-05 09:26</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=j-VDMVobDjg" target="_blank">
+                        7000万印尼盾的PC尚不足以支持本地LLM
+                    </a>
+                </h3>
+                
+                <p class="card-summary">预算不足限制本地LLM应用，需更高配置才能满足需求</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 15:28</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=axTlaMFFIpo" target="_blank">
+                        用Clarion JM-GE-LLM升级DJ音效！🔥🎧强劲低音与清晰音质
+                    </a>
+                </h3>
+                
+                <p class="card-summary">新型DJ音频设备带来震撼低音与纯净音质体验</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-05 08:30</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=74jk0J7ERyU" target="_blank">
+                        最新三大AI性能与成本解析 | GPT-6 Astra、Gemini 3.8 Flash、Claude Fable 5.1
+                    </a>
+                </h3>
+                
+                <p class="card-summary">横向对比GPT-6、Gemini 3.8、Claude Fable等AI模型性能与价格</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 17:00</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=wufoAMjVE4o" target="_blank">
+                        为什么下一台PC需要NPU？90秒解析NPU功能
+                    </a>
+                </h3>
+                
+                <p class="card-summary">NPU芯片提升PC运算效率，成为AI时代必备硬件配置</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 22:05</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=3bFv2wMny7Q" target="_blank">
+                        LLM强化学习框架Miles助力企业级应用
+                    </a>
+                </h3>
+                
+                <p class="card-summary">Miles框架通过强化学习优化企业级AI应用，提升效率与智能化水平</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 20:40</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=LzLA39dQhZc" target="_blank">
+                        GPT Astra：OpenAI最新模型发布 #人工智能 #大语言模型 #OpenAI
+                    </a>
+                </h3>
+                
+                <p class="card-summary">OpenAI推出最新GPT Astra模型，显著提升自然语言处理能力</p>
+                
+            </div>
+            
+            <div class="card" data-category="YouTube热点">
+                <div class="card-header">
+                    <span class="card-source">YouTube</span>
+                    <span class="card-date">09-04 16:00</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.youtube.com/watch?v=AbFjD4wHjfA" target="_blank">
+                        AI幻觉现象60秒解析 #系统设计 #人工智能 #大语言模型
+                    </a>
+                </h3>
+                
+                <p class="card-summary">60秒解析AI幻觉现象，揭示模型生成错误信息的机制与影响</p>
+                
+            </div>
+            
+        </div>
+    </div>
+
+    <script>
+        function filterCategory(cat) {
+            document.querySelectorAll('.category-btn').forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.textContent === cat || (cat === 'all' && btn.textContent === '全部')) {
+                    btn.classList.add('active');
+                }
+            });
+            document.querySelectorAll('.card').forEach(card => {
+                if (cat === 'all' || card.dataset.category === cat) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
