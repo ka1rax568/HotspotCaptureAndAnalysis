@@ -1,0 +1,2484 @@
+[
+  {
+    "title": "Learning Another Language May Be One of the Best Ways to Keep Your Brain Healthy",
+    "url": "https://theconversation.com/learning-another-language-may-be-one-of-the-best-ways-to-keep-your-brain-healthy-as-you-age-291951",
+    "source": "Hacker News",
+    "category": "科技热点",
+    "published_at": "2026-09-19T14:23:42+00:00",
+    "summary": "学习新语言有助于延缓认知衰退，提升大脑活力",
+    "translated_title": "学习新语言可能是保持大脑健康的最佳方式之一",
+    "extra": {
+      "author": "nativeit",
+      "tags": []
+    }
+  },
+  {
+    "title": "A graphical desktop for the ZX Spectrum",
+    "url": "https://github.com/mindbox77/zxdesk",
+    "source": "Hacker News",
+    "category": "科技热点",
+    "published_at": "2026-09-19T14:01:58+00:00",
+    "summary": "复古计算机系统新增图形界面，提升用户体验",
+    "translated_title": "为ZX Spectrum打造图形桌面环境",
+    "extra": {
+      "author": "graemep",
+      "tags": []
+    }
+  },
+  {
+    "title": "What Zig felt like, coming from Rust",
+    "url": "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/",
+    "source": "Hacker News",
+    "category": "科技热点",
+    "published_at": "2026-09-19T13:55:18+00:00",
+    "summary": "对比Rust与Zig的编程体验，解析语言特性差异",
+    "translated_title": "从Rust转用Zig的编程体验对比",
+    "extra": {
+      "author": "ksec",
+      "tags": []
+    }
+  },
+  {
+    "title": "Tin: full-text search for Postgres",
+    "url": "https://planetscale.com/blog/introducing-tin",
+    "source": "Hacker News",
+    "category": "科技热点",
+    "published_at": "2026-09-19T13:52:06+00:00",
+    "summary": "Tin工具增强PostgreSQL数据库的搜索能力，优化数据检索效率",
+    "translated_title": "Tin：为Postgres提供全文搜索功能",
+    "extra": {
+      "author": "ksec",
+      "tags": []
+    }
+  },
+  {
+    "title": "Laya the open source version of Jev",
+    "url": "https://laya.convaiinnovations.com/",
+    "source": "Hacker News",
+    "category": "科技热点",
+    "published_at": "2026-09-19T10:46:58+00:00",
+    "summary": "Laya作为Jev的开源版本，提供类似功能且易于定制",
+    "translated_title": "Laya：Jev的开源替代版本",
+    "extra": {
+      "author": "nandakishor_ml",
+      "tags": []
+    }
+  },
+  {
+    "title": "AI-generated posters don’t have to be horrible",
+    "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+    "source": "Hacker News",
+    "category": "科技热点",
+    "published_at": "2026-09-19T09:20:58+00:00",
+    "summary": "AI技术可创作高质量海报，挑战传统设计观念",
+    "translated_title": "AI生成的海报未必糟糕",
+    "extra": {
+      "author": "ereiamjh",
+      "tags": []
+    }
+  },
+  {
+    "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
+    "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
+    "source": "Hacker News",
+    "category": "科技热点",
+    "published_at": "2026-09-19T06:41:44+00:00",
+    "summary": "AI模型成功破译历史无线电密码，展现技术实力",
+    "translated_title": "GPT-6 Astra破解一战德军无线电密码",
+    "extra": {
+      "author": "nsoonhui",
+      "tags": []
+    }
+  },
+  {
+    "title": "If math is more than proof, we need to better celebrate the rest of it",
+    "url": "https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/",
+    "source": "Hacker News",
+    "category": "科技热点",
+    "published_at": "2026-09-19T06:28:02+00:00",
+    "summary": "数学蕴含更多价值，需超越证明范畴进行认可与推广",
+    "translated_title": "若数学不止于证明，需更全面地赞美其多元价值",
+    "extra": {
+      "author": "num42",
+      "tags": []
+    }
+  },
+  {
+    "title": "Human brain is two separate organs, Stanford Medicine-led research finds",
+    "url": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
+    "source": "Hacker News",
+    "category": "科技热点",
+    "published_at": "2026-09-19T05:48:50+00:00",
+    "summary": "研究揭示人脑结构新认知，挑战传统生物学理论",
+    "translated_title": "斯坦福医学研究发现人脑为两个独立器官",
+    "extra": {
+      "author": "emigre",
+      "tags": []
+    }
+  },
+  {
+    "title": "NASA-IBM Lunar Foundation open-Source Geospatial AI Model",
+    "url": "https://newsroom.usra.edu/usra-contributes-planetary-science-expertise-to-nasa-ibm-lunar-foundation-model/",
+    "source": "Hacker News",
+    "category": "科技热点",
+    "published_at": "2026-09-19T04:44:35+00:00",
+    "summary": "NASA与IBM联合发布开源地理AI模型，助力月球探索",
+    "translated_title": "NASA-IBM月球基金会推出开源地理空间AI模型",
+    "extra": {
+      "author": "noobplus",
+      "tags": []
+    }
+  },
+  {
+    "title": "San Francisco Onion Futures Company",
+    "url": "https://onionfutures.com/",
+    "source": "Hacker News",
+    "category": "科技热点",
+    "published_at": "2026-09-19T04:23:30+00:00",
+    "summary": "专注于洋葱期货交易的金融企业，提供相关市场分析与投资服务",
+    "translated_title": "旧金山洋葱期货公司",
+    "extra": {
+      "author": "z-mach9",
+      "tags": []
+    }
+  },
+  {
+    "title": "SDCC – Small Device C Compiler",
+    "url": "https://sdcc.sourceforge.net/",
+    "source": "Hacker News",
+    "category": "科技热点",
+    "published_at": "2026-09-19T02:32:36+00:00",
+    "summary": "专为嵌入式系统设计的C语言编译器，支持多种微控制器开发",
+    "translated_title": "SDCC – 小型设备C编译器",
+    "extra": {
+      "author": "lioeters",
+      "tags": []
+    }
+  },
+  {
+    "title": "Science Is Open Software",
+    "url": "https://jepedersen.dk/blog/202505_research/",
+    "source": "Hacker News",
+    "category": "科技热点",
+    "published_at": "2026-09-19T02:21:35+00:00",
+    "summary": "推动科学研究领域开源化进程，促进全球协作与创新",
+    "translated_title": "科学开源软件项目",
+    "extra": {
+      "author": "jegp",
+      "tags": []
+    }
+  },
+  {
+    "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+    "url": "https://spectrum.ieee.org/llms-for-chip-design",
+    "source": "Hacker News",
+    "category": "科技热点",
+    "published_at": "2026-09-18T23:04:17+00:00",
+    "summary": "OpenAI通过自研语言模型优化芯片架构，提升AI计算效率",
+    "translated_title": "OpenAI利用自家大模型设计Jalapeño芯片",
+    "extra": {
+      "author": "maxall4",
+      "tags": []
+    }
+  },
+  {
+    "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
+    "url": "https://grapheneos.social/@GrapheneOS/117282080803799576",
+    "source": "Hacker News",
+    "category": "科技热点",
+    "published_at": "2026-09-18T19:03:09+00:00",
+    "summary": "Android 17成为自3.x版本后首个未向AOSP发布即添加新功能的系统版本",
+    "translated_title": "Android 17首次未开源新增API",
+    "extra": {
+      "author": "theanonymousone",
+      "tags": []
+    }
+  },
+  {
+    "title": "Saving another 100TB of RAM",
+    "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
+    "source": "Hacker News",
+    "category": "科技热点",
+    "published_at": "2026-09-18T18:51:46+00:00",
+    "summary": "新技术优化系统内存管理，释放大规模存储资源",
+    "translated_title": "节省额外100TB内存空间",
+    "extra": {
+      "author": "f311a",
+      "tags": []
+    }
+  },
+  {
+    "title": "Black Holes or Black Hole Stars? Astronomers Spar over 'Little Red Dots'",
+    "url": "https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914/",
+    "source": "Hacker News",
+    "category": "科技热点",
+    "published_at": "2026-09-18T15:47:14+00:00",
+    "summary": "天文学界就神秘天体'小红点'究竟是黑洞还是致密星体展开激烈讨论",
+    "translated_title": "黑洞还是黑洞恒星？天文学家热议'小红点'现象",
+    "extra": {
+      "author": "jandrewrogers",
+      "tags": []
+    }
+  },
+  {
+    "title": "Cloudflare Quick Tunnels",
+    "url": "https://try.cloudflare.com/",
+    "source": "Hacker News",
+    "category": "科技热点",
+    "published_at": "2026-09-18T14:18:41+00:00",
+    "summary": "Cloudflare推出新型网络加速方案，提升数据传输效率与安全性",
+    "translated_title": "Cloudflare快速隧道技术",
+    "extra": {
+      "author": "jcbhmr",
+      "tags": []
+    }
+  },
+  {
+    "title": "OpenJev",
+    "url": "https://openjev.com/",
+    "source": "Hacker News",
+    "category": "科技热点",
+    "published_at": "2026-09-18T09:42:22+00:00",
+    "summary": "OpenJev作为开源数据分析工具，提供自动化处理解决方案",
+    "translated_title": "OpenJev开源项目",
+    "extra": {
+      "author": "ilreb",
+      "tags": []
+    }
+  },
+  {
+    "title": "How to Write with an LLM",
+    "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+    "source": "Hacker News",
+    "category": "科技热点",
+    "published_at": "2026-09-17T21:48:38+00:00",
+    "summary": "解析大型语言模型在文本创作中的实践方法与优化技巧",
+    "translated_title": "LLM写作应用指南",
+    "extra": {
+      "author": "joeriddles",
+      "tags": []
+    }
+  },
+  {
+    "title": "AI safety conversations have gotten unbelievable",
+    "url": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/",
+    "source": "TechCrunch AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-19T15:00:00+00:00",
+    "summary": "AI安全领域对话热度持续攀升，引发行业深度关注",
+    "translated_title": "AI安全讨论已远超预期",
+    "extra": {
+      "author": "Julie Bort",
+      "tags": [
+        "TC",
+        "AI",
+        "OpenAI",
+        "Anthropic",
+        "alignment"
+      ]
+    }
+  },
+  {
+    "title": "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking",
+    "url": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
+    "source": "TechCrunch AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-19T13:00:00+00:00",
+    "summary": "Vals获顶级风投支持，致力于建立AI性能评估新标杆",
+    "translated_title": "由安德烈森·霍罗维茨支持的Vals力图成为AI基准测试的黄金标准",
+    "extra": {
+      "author": "Lucas Ropek",
+      "tags": [
+        "AI",
+        "Andreessen Horowitz",
+        "Startups"
+      ]
+    }
+  },
+  {
+    "title": "India forces caller-ID apps to feed spam reports to telcos",
+    "url": "https://techcrunch.com/2026/09/18/india-forces-caller-id-apps-to-feed-spam-reports-to-telcos/",
+    "source": "TechCrunch AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-19T01:00:00+00:00",
+    "summary": "印度新规要求垃圾信息举报平台直接对接电信运营商",
+    "translated_title": "印度强制来电显示应用向电信运营商提交垃圾信息报告",
+    "extra": {
+      "author": "Jagmeet Singh",
+      "tags": [
+        "AI",
+        "Government & Policy",
+        "robocalls",
+        "spam",
+        "Truecaller"
+      ]
+    }
+  },
+  {
+    "title": "Tilly Norwood’s press tour is going about as well as you’d expect for an AI",
+    "url": "https://techcrunch.com/2026/09/18/tilly-norwoods-press-tour-is-going-about-as-well-as-youd-expect-for-an-ai/",
+    "source": "TechCrunch AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-19T00:12:07+00:00",
+    "summary": "AI领域新星的媒体推广效果低于市场普遍预期",
+    "translated_title": "Tilly Norwood的媒体巡礼进展甚微，一如你对AI的预期",
+    "extra": {
+      "author": "Amanda Silberling",
+      "tags": [
+        "AI",
+        "Media & Entertainment",
+        "tilly norwood"
+      ]
+    }
+  },
+  {
+    "title": "A startup that builds other startups raised $100M and is all-in on physical AI",
+    "url": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/",
+    "source": "TechCrunch AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-18T23:25:01+00:00",
+    "summary": "专注孵化企业的科技公司获巨额投资转向硬件研发",
+    "translated_title": "打造初创企业的公司获1亿美元融资，全面投入实体AI",
+    "extra": {
+      "author": "Kirsten Korosec",
+      "tags": [
+        "AI",
+        "Fundraising",
+        "Startups",
+        "UpLabs"
+      ]
+    }
+  },
+  {
+    "title": "Anthropic is operating a lab that conducts biology experiments",
+    "url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
+    "source": "TechCrunch AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-18T23:13:31+00:00",
+    "summary": "Anthropic正运营生物实验实验室，推动前沿科研突破",
+    "translated_title": "Anthropic运营生物实验实验室",
+    "extra": {
+      "author": "Julie Bort",
+      "tags": [
+        "AI",
+        "Biotech & Health",
+        "Anthropic"
+      ]
+    }
+  },
+  {
+    "title": "AI hallucination nearly triggers US military operation",
+    "url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
+    "source": "TechCrunch AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-18T23:12:32+00:00",
+    "summary": "AI错误生成信息险些触发美国军事行动，引发安全担忧",
+    "translated_title": "AI幻觉险些引发美军行动",
+    "extra": {
+      "author": "Aditya Mehta",
+      "tags": [
+        "AI",
+        "Government & Policy"
+      ]
+    }
+  },
+  {
+    "title": "Anthropic’s first embedded evaluator is … Accenture?",
+    "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
+    "source": "TechCrunch AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-18T21:44:33+00:00",
+    "summary": "Anthropic首款嵌入式评估工具或与Accenture合作，提升AI安全性",
+    "translated_title": "Anthropic首款嵌入式评估工具或与Accenture合作",
+    "extra": {
+      "author": "Tim Fernholz",
+      "tags": [
+        "AI",
+        "Accenture",
+        "Anthropic"
+      ]
+    }
+  },
+  {
+    "title": "World model companies are keeping a lot of secrets",
+    "url": "https://techcrunch.com/2026/09/18/world-model-companies-are-keeping-a-lot-of-secrets/",
+    "source": "TechCrunch AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-18T20:18:14+00:00",
+    "summary": "全球AI模型企业保守关键技术秘密，加剧技术竞争",
+    "translated_title": "全球AI模型企业捂紧核心技术",
+    "extra": {
+      "author": "Russell Brandom",
+      "tags": [
+        "AI",
+        "TC",
+        "world models"
+      ]
+    }
+  },
+  {
+    "title": "A new kind of AI model from a ChatGPT inventor is thrilling developers",
+    "url": "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
+    "source": "TechCrunch AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-18T18:49:30+00:00",
+    "summary": "ChatGPT创始人推出突破性AI模型，开发者应用热情高涨",
+    "translated_title": "ChatGPT创始人新型AI模型引发开发者热潮",
+    "extra": {
+      "author": "Tim Fernholz",
+      "tags": [
+        "AI",
+        "Startups",
+        "typesafe"
+      ]
+    }
+  },
+  {
+    "title": "Disney’s first CTO led an AI startup it once accused of copying its characters",
+    "url": "https://techcrunch.com/2026/09/18/disneys-first-cto-led-an-ai-startup-it-once-accused-of-copying-its-characters/",
+    "source": "TechCrunch AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-18T17:59:53+00:00",
+    "summary": "迪士尼前CTO创立的AI公司曾被指控抄袭角色，现重启独立运营",
+    "translated_title": "迪士尼首位首席技术官曾领导一家被其指控抄袭角色的AI初创公司",
+    "extra": {
+      "author": "Lucas Ropek",
+      "tags": [
+        "AI",
+        "Media & Entertainment",
+        "TC",
+        "character.ai",
+        "Disney",
+        "entertainment",
+        "In Brief"
+      ]
+    }
+  },
+  {
+    "title": "Google’s new ‘CC’ is an AI agent that helps families run their households",
+    "url": "https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/",
+    "source": "TechCrunch AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-18T17:33:50+00:00",
+    "summary": "谷歌推出AI家庭助手CC，助力家庭事务管理",
+    "translated_title": "谷歌推出新AI助手‘CC’，协助家庭管理日常事务",
+    "extra": {
+      "author": "Sarah Perez",
+      "tags": [
+        "AI",
+        "Apps",
+        "Social",
+        "Google",
+        "AI agents"
+      ]
+    }
+  },
+  {
+    "title": "Dario Amodei and other AI leaders want to ‘Pace the Frontier’ but…how?",
+    "url": "https://techcrunch.com/video/dario-amodei-and-other-ai-leaders-want-to-pace-the-frontier-buthow/",
+    "source": "TechCrunch AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-18T17:09:56+00:00",
+    "summary": "AI领袖倡导掌控技术前沿，探讨具体实施路径",
+    "translated_title": "Dario Amodei等AI领袖呼吁‘掌控前沿’，但具体如何实施？",
+    "extra": {
+      "author": "Theresa Loconsolo",
+      "tags": [
+        "AI",
+        "ai safety",
+        "Anthropic",
+        "nvidia"
+      ]
+    }
+  },
+  {
+    "title": "Automattic’s 33-Hour Coup, and can AI labs police themselves?",
+    "url": "https://techcrunch.com/podcast/automattics-33-hour-coup-and-can-ai-labs-police-themselves/",
+    "source": "TechCrunch AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-18T17:06:32+00:00",
+    "summary": "Automattic突发33小时管理层变动，引发AI监管讨论",
+    "translated_title": "Automattic实施33小时政变，AI实验室是否能自我监管？",
+    "extra": {
+      "author": "Anthony Ha, Theresa Loconsolo, Kirsten Korosec, Sean O'Kane",
+      "tags": [
+        "AI",
+        "Startups",
+        "ai safety",
+        "Anthropic",
+        "Automattic",
+        "Equity podcast",
+        "matt mullenweg",
+        "nvidia"
+      ]
+    }
+  },
+  {
+    "title": "Manus seeks $4B valuation in new $500M fundraise as it resumes independent ops",
+    "url": "https://techcrunch.com/2026/09/18/manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes-independent-ops/",
+    "source": "TechCrunch AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-18T16:35:49+00:00",
+    "summary": "Manus获5亿美元新融资，寻求40亿估值并重启自主运营",
+    "translated_title": "Manus通过新融资寻求40亿美元估值，重启独立运营",
+    "extra": {
+      "author": "Ram Iyer",
+      "tags": [
+        "AI",
+        "Fundraising",
+        "Startups",
+        "manus",
+        "Meta"
+      ]
+    }
+  },
+  {
+    "title": "Open or closed AI? Nvidia’s Nader Khalil and Sydney Sykes take on one of the decisions shaping next-gen startups at TechCrunch Disrupt 2026",
+    "url": "https://techcrunch.com/2026/09/18/open-or-closed-ai-nvidias-nader-khalil-and-sydney-sykes-take-on-one-of-the-decisions-shaping-next-gen-startups-at-techcrunch-disrupt-2026/",
+    "source": "TechCrunch AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-18T15:30:00+00:00",
+    "summary": "NVIDIA高层解析开放与封闭AI模式对新兴企业的影响",
+    "translated_title": "开放还是封闭AI？NVIDIA高管探讨下一代初创企业决策",
+    "extra": {
+      "author": "TechCrunch Events",
+      "tags": [
+        "Startups",
+        "AI",
+        "nvidia",
+        "TechCrunch Disrupt"
+      ]
+    }
+  },
+  {
+    "title": "Meta’s Muse hits Mac, letting the AI take actions on your computer",
+    "url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
+    "source": "TechCrunch AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-18T15:22:48+00:00",
+    "summary": "Meta推出Muse工具让AI在Mac电脑上自主执行任务",
+    "translated_title": "Meta AI Muse登陆Mac平台 实现电脑自动化操作",
+    "extra": {
+      "author": "Sarah Perez",
+      "tags": [
+        "AI",
+        "Apps",
+        "Meta",
+        "muse"
+      ]
+    }
+  },
+  {
+    "title": "Robinhood’s Abhishek Fatehpuria on winning the modern financial consumer at TechCrunch Disrupt 2026",
+    "url": "https://techcrunch.com/2026/09/18/robinhoods-abhishek-fatehpuria-on-winning-the-modern-financial-consumer-at-techcrunch-disrupt-2026/",
+    "source": "TechCrunch AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-18T15:00:00+00:00",
+    "summary": "探讨如何通过创新服务赢得数字时代金融用户",
+    "translated_title": "Robinhood高管分享吸引现代金融消费者的策略",
+    "extra": {
+      "author": "TechCrunch Events",
+      "tags": [
+        "Startups",
+        "Fintech",
+        "AI",
+        "TechCrunch Disrupt",
+        "Robinhood"
+      ]
+    }
+  },
+  {
+    "title": "Researchers used Anthropic’s Claude to hack into OpenAI",
+    "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
+    "source": "TechCrunch AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-18T14:00:14+00:00",
+    "summary": " Anthropic AI被用于验证OpenAI技术防护能力",
+    "translated_title": "研究者用Claude测试OpenAI系统安全性",
+    "extra": {
+      "author": "Aditya Mehta, Rebecca Bellan",
+      "tags": [
+        "AI",
+        "Security",
+        "Anthropic",
+        "cybersecurity",
+        "OpenAI"
+      ]
+    }
+  },
+  {
+    "title": "The clock is ticking: Final 24 hours to exhibit at TechCrunch Disrupt 2026",
+    "url": "https://techcrunch.com/2026/09/18/final-24-hours-to-exhibit-at-techcrunch-disrupt-2026/",
+    "source": "TechCrunch AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-18T14:00:00+00:00",
+    "summary": "参展商进入TechCrunch大会最后24小时准备期",
+    "translated_title": "TechCrunch颠覆大会2026参展倒计时最后24小时",
+    "extra": {
+      "author": "TechCrunch Events",
+      "tags": [
+        "Startups",
+        "Fintech",
+        "Biotech & Health",
+        "Venture",
+        "AI",
+        "Robotics",
+        "Fundraising",
+        "TechCrunch Disrupt"
+      ]
+    }
+  },
+  {
+    "title": "Does AI need an antitrust exemption so it doesn&#8217;t kill everyone????",
+    "url": "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
+    "source": "The Verge AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-19T10:00:00-04:00",
+    "summary": "探讨AI发展是否需反垄断豁免以防止失控风险",
+    "translated_title": "AI是否需要反垄断豁免以避免危及人类生存？",
+    "extra": {
+      "author": "Nilay Patel",
+      "tags": [
+        "AI",
+        "Antitrust",
+        "Decoder",
+        "Podcasts",
+        "Policy",
+        "Politics"
+      ]
+    }
+  },
+  {
+    "title": "The AI regulation smackdown isn’t over",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over",
+    "source": "The Verge AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-19T09:00:00-04:00",
+    "summary": "全球AI监管博弈持续升级，政策讨论仍处关键阶段",
+    "translated_title": "AI监管斗争尚未结束",
+    "extra": {
+      "author": "Hayden Field",
+      "tags": [
+        "AI",
+        "Anthropic",
+        "Elon Musk",
+        "Google",
+        "Law",
+        "OpenAI",
+        "Policy",
+        "Report",
+        "Tech",
+        "xAI"
+      ]
+    }
+  },
+  {
+    "title": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
+    "source": "The Verge AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-18T17:07:24-04:00",
+    "summary": "揭示科技公司对AI可能引发网络失控的预警",
+    "translated_title": "OpenAI与微软预见到网络恶性循环",
+    "extra": {
+      "author": "Terrence O’Brien",
+      "tags": [
+        "AI",
+        "Google",
+        "Law",
+        "Microsoft",
+        "OpenAI",
+        "Policy",
+        "Tech"
+      ]
+    }
+  },
+  {
+    "title": "Virginia governor creates an AI task force and moves to restrain data centers",
+    "url": "https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force",
+    "source": "The Verge AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-18T14:29:17-04:00",
+    "summary": "州政府拟通过专项监管遏制AI数据中心扩张",
+    "translated_title": "弗吉尼亚州长成立AI工作组限制数据中心",
+    "extra": {
+      "author": "Lauren Feiner",
+      "tags": [
+        "AI",
+        "Energy",
+        "News",
+        "Policy",
+        "Politics",
+        "Science"
+      ]
+    }
+  },
+  {
+    "title": "Gavin Newsom is pushing for an AI kill switch",
+    "url": "https://www.theverge.com/policy/997516/california-governor-newsom-ai-kill-switch",
+    "source": "The Verge AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-18T13:04:51-04:00",
+    "summary": "加州州长提出建立AI系统应急终止方案",
+    "translated_title": "纽瑟姆推动AI紧急关闭机制",
+    "extra": {
+      "author": "Lauren Feiner",
+      "tags": [
+        "AI",
+        "News",
+        "Policy",
+        "Politics"
+      ]
+    }
+  },
+  {
+    "title": "What Hollywood thinks about existential AI warnings",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/997358/what-hollywood-thinks-about-existential-ai-warnings",
+    "source": "The Verge AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-18T12:35:19-04:00",
+    "summary": "探讨好莱坞对AI潜在威胁的警示态度及未来影响",
+    "translated_title": "好莱坞对AI存在性威胁警告的看法",
+    "extra": {
+      "author": "Charles Pulliam-Moore",
+      "tags": [
+        "AI",
+        "Entertainment"
+      ]
+    }
+  },
+  {
+    "title": "Security researchers used Claude to help them hack into OpenAI",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist",
+    "source": "The Verge AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-18T11:30:16-04:00",
+    "summary": "安全专家借助Claude技术尝试渗透OpenAI系统，引发伦理担忧",
+    "translated_title": "安全研究人员利用Claude协助入侵OpenAI",
+    "extra": {
+      "author": "Stevie Bonifield",
+      "tags": [
+        "AI",
+        "Anthropic",
+        "News",
+        "OpenAI",
+        "Security",
+        "Tech"
+      ]
+    }
+  },
+  {
+    "title": "Flash floods can strike without warning — this new technology could change that",
+    "url": "https://www.theverge.com/science/997083/flash-flood-warning-tacls-satellite-machine-learning",
+    "source": "The Verge AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-18T07:00:00-04:00",
+    "summary": "新技术或实现山洪预警，提升灾害应对能力",
+    "translated_title": "山洪可能突发无预警，新技术或将改变这一现状",
+    "extra": {
+      "author": "Megan Wollerton",
+      "tags": [
+        "AI",
+        "Climate",
+        "Report",
+        "Science"
+      ]
+    }
+  },
+  {
+    "title": "The AI Superintelligence Slowdown",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
+    "source": "The Verge AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-17T15:28:24-04:00",
+    "summary": "分析AI超级智能发展减速的原因及行业影响",
+    "translated_title": "AI超级智能发展出现放缓迹象",
+    "extra": {
+      "author": "Sean Hollister",
+      "tags": [
+        "AI",
+        "Anthropic",
+        "Google",
+        "Microsoft",
+        "News",
+        "Nvidia",
+        "OpenAI",
+        "Tech",
+        "xAI"
+      ]
+    }
+  },
+  {
+    "title": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
+    "source": "The Verge AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-17T14:58:05-04:00",
+    "summary": "重启云平台项目助力多AI代理协同管理，提升效率",
+    "translated_title": "Claude Code重启云平台项目以管理多AI代理",
+    "extra": {
+      "author": "Stevie Bonifield",
+      "tags": [
+        "AI",
+        "Anthropic",
+        "News",
+        "Tech"
+      ]
+    }
+  },
+  {
+    "title": "A.I. Brings Big Gains to Hurricane Forecasts, Google Researchers Say",
+    "url": "https://www.nytimes.com/2026/08/28/science/ai-hurricane-forecasts-google.html",
+    "source": "NYTimes AI",
+    "category": "AI新闻",
+    "published_at": "2026-08-28T09:02:39+00:00",
+    "summary": "AI技术助力提高飓风预测准确率，优化路径与强度预判",
+    "translated_title": "谷歌研究人员称人工智能为飓风预测带来显著提升",
+    "extra": {
+      "author": "William J. Broad",
+      "tags": [
+        "Hurricanes and Tropical Storms",
+        "Artificial Intelligence",
+        "National Hurricane Center",
+        "DeepMind Technologies Ltd",
+        "Google Inc",
+        "Hurricane Melissa (2025)",
+        "Research",
+        "Computers and the Internet",
+        "your-feed-science"
+      ]
+    }
+  },
+  {
+    "title": "Bill Gates Is Warning That A.I. Is More Dangerous Than Big Tech Will Admit",
+    "url": "https://www.nytimes.com/2026/08/26/technology/bill-gates-ai-risks.html",
+    "source": "NYTimes AI",
+    "category": "AI新闻",
+    "published_at": "2026-08-27T00:24:04+00:00",
+    "summary": "比尔·盖茨指出，人工智能的潜在威胁远超科技巨头公开承认的范围。",
+    "translated_title": "比尔·盖茨警告：人工智能威胁远超科技巨头承认范围",
+    "extra": {
+      "author": "Karen Weise",
+      "tags": [
+        "Gates, Bill",
+        "Artificial Intelligence",
+        "Computers and the Internet",
+        "Regulation and Deregulation of Industry",
+        "Microsoft Corp",
+        "Anthropic AI LLC"
+      ]
+    }
+  },
+  {
+    "title": "Why Irregular’s A.I. Tests for Meta, Anthropic and OpenAI Went Off the Rails",
+    "url": "https://www.nytimes.com/2026/08/25/technology/irregular-ai-test-hacks.html",
+    "source": "NYTimes AI",
+    "category": "AI新闻",
+    "published_at": "2026-08-25T21:59:39+00:00",
+    "summary": "文章分析Irregular在Meta等平台的AI测试失控原因，探讨技术挑战及潜在影响。",
+    "translated_title": "为何Irregular的人工智能测试在Meta、Anthropic和OpenAI上失控？",
+    "extra": {
+      "author": "Sheera Frenkel",
+      "tags": [
+        "Artificial Intelligence",
+        "Computer Security",
+        "Cyberattacks and Hackers",
+        "Irregular (AI Co)",
+        "Start-ups",
+        "Venture Capital",
+        "Anthropic AI LLC",
+        "Hugging Face Inc",
+        "Meta Platforms Inc",
+        "OpenAI Labs",
+        "Lahav, Dan (Tech Executive)",
+        "Computers and the Internet"
+      ]
+    }
+  },
+  {
+    "title": "I Tested a Popular A.I. Slop Detector. It Felt Empowering.",
+    "url": "https://www.nytimes.com/2026/08/13/technology/personaltech/pangram-ai-detector-test.html",
+    "source": "NYTimes AI",
+    "category": "AI新闻",
+    "published_at": "2026-08-14T14:08:52+00:00",
+    "summary": "体验AI垃圾内容检测工具带来的强大控制力，提升内容管理效率。",
+    "translated_title": "我测试了一款流行的AI垃圾内容检测工具。感觉非常有力量。",
+    "extra": {
+      "author": "Brian X. Chen",
+      "tags": [
+        "Artificial Intelligence",
+        "Computers and the Internet",
+        "Pangram Labs Inc",
+        "Every Media Inc"
+      ]
+    }
+  },
+  {
+    "title": "So You Want to Build an A.I. Star?",
+    "url": "https://www.nytimes.com/2026/08/13/arts/ai-podcasts-fashion-pop-avatars.html",
+    "source": "NYTimes AI",
+    "category": "AI新闻",
+    "published_at": "2026-08-13T09:00:20+00:00",
+    "summary": "解析构建AI明星的关键要素与实践路径，涵盖技术突破与商业应用策略。",
+    "translated_title": "你想打造一个AI明星吗？",
+    "extra": {
+      "author": "Reggie Ugwu",
+      "tags": [
+        "Artificial Intelligence",
+        "Social Media",
+        "Inception Point AI",
+        "Fashion and Apparel",
+        "Models (Professional)",
+        "Pop and Rock Music",
+        "Spotify",
+        "Podcasts"
+      ]
+    }
+  },
+  {
+    "title": "As Comedians Toy With A.I., Who Will Get the Last Laugh?",
+    "url": "https://www.nytimes.com/2026/08/13/arts/edinburgh-fringe-ai-comedy.html",
+    "source": "NYTimes AI",
+    "category": "AI新闻",
+    "published_at": "2026-08-18T16:14:42+00:00",
+    "summary": "探讨AI技术在喜剧领域的应用及其潜在风险",
+    "translated_title": "喜剧演员玩弄AI，谁将沦为最后的笑柄？",
+    "extra": {
+      "author": "Houman Barekat",
+      "tags": [
+        "Edinburgh Festival Fringe",
+        "Artificial Intelligence",
+        "Comedy and Humor"
+      ]
+    }
+  },
+  {
+    "title": "What Are Companies Getting for All That A.I. Spending?",
+    "url": "https://www.nytimes.com/2026/08/03/business/economy/ai-spending-tokenomics.html",
+    "source": "NYTimes AI",
+    "category": "AI新闻",
+    "published_at": "2026-08-03T18:56:22+00:00",
+    "summary": "分析企业AI投资的回报与效益",
+    "translated_title": "企业投入巨资发展AI，究竟收获了什么？",
+    "extra": {
+      "author": "Lydia DePillis",
+      "tags": [
+        "Artificial Intelligence",
+        "Prices (Fares, Fees and Rates)",
+        "Labor and Jobs",
+        "Economic Conditions and Trends",
+        "Economics (Theory and Philosophy)"
+      ]
+    }
+  },
+  {
+    "title": "Larry Ellison Bet It All on the A.I. Boom. Will He Be the Face of the A.I. Bubble?",
+    "url": "https://www.nytimes.com/2026/07/31/magazine/larry-ellison-ai-oracle.html",
+    "source": "NYTimes AI",
+    "category": "AI新闻",
+    "published_at": "2026-08-05T16:18:09+00:00",
+    "summary": "评估Larry Ellison在AI领域的高风险投资及其可能面临的泡沫危机",
+    "translated_title": "Larry Ellison全押AI热潮，或成泡沫代表？",
+    "extra": {
+      "author": "Jonathan Mahler, Jim Rutenberg and Kirsten Grind",
+      "tags": [
+        "Ellison, Lawrence J",
+        "Ellison, David (1983- )",
+        "Oracle Corporation",
+        "OpenAI Labs",
+        "Artificial Intelligence",
+        "Beijing Bytedance Technology Co Ltd",
+        "TikTok (ByteDance)",
+        "Trump, Donald J",
+        "United States Politics and Government",
+        "Computers and the Internet"
+      ]
+    }
+  },
+  {
+    "title": "Apple’s Siri Got an A.I. Brain Transplant. Try These 5 Prompts to Get Acclimated.",
+    "url": "https://www.nytimes.com/2026/07/30/technology/personaltech/apple-siri-ai-prompts.html",
+    "source": "NYTimes AI",
+    "category": "AI新闻",
+    "published_at": "2026-07-30T09:03:08+00:00",
+    "summary": "介绍Siri新AI功能及用户适应方法",
+    "translated_title": "苹果Siri完成AI大脑移植，试试这5个提示适应新功能",
+    "extra": {
+      "author": "Brian X. Chen",
+      "tags": [
+        "Apple Inc",
+        "Artificial Intelligence",
+        "Software",
+        "iOS (Operating System)",
+        "iPhone"
+      ]
+    }
+  },
+  {
+    "title": "A.I. Is a Threat, but Not in the Way You Think",
+    "url": "https://www.nytimes.com/2026/09/19/opinion/ai-hugging-face-big-tech-danger.html",
+    "source": "NYTimes AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-19T12:26:01+00:00",
+    "summary": "解析AI威胁的非传统形式及其潜在影响",
+    "translated_title": "AI是威胁，但并非你想象的那样",
+    "extra": {
+      "author": "Tressie McMillan Cottom",
+      "tags": [
+        "Artificial Intelligence",
+        "United States Politics and Government",
+        "Anthropic AI LLC",
+        "Hugging Face Inc",
+        "Polls and Public Opinion",
+        "Muskism: A Guide for the Perplexed (Book)"
+      ]
+    }
+  },
+  {
+    "title": "Trump and Xi Can Make Progress on A.I.",
+    "url": "https://www.nytimes.com/2026/09/19/opinion/trump-china-ai.html",
+    "source": "NYTimes AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-19T11:12:37+00:00",
+    "summary": "分析特朗普与习近平在人工智能合作上的潜在突破与挑战",
+    "translated_title": "特朗普与习近平可在人工智能领域取得进展",
+    "extra": {
+      "author": "Nicholas Kristof",
+      "tags": [
+        "Artificial Intelligence",
+        "China",
+        "Communist Party of China",
+        "Trump, Donald J",
+        "Xi Jinping",
+        "Politics and Government",
+        "Computers and the Internet",
+        "International Trade and World Market"
+      ]
+    }
+  },
+  {
+    "title": "‘This Is Trump. It’s Always Been Trump.’",
+    "url": "https://www.nytimes.com/video/opinion/100000011156740/this-is-trump-its-always-been-trump.html",
+    "source": "NYTimes AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-19T11:00:07+00:00",
+    "summary": "揭示特朗普一贯的政治风格与争议性言行",
+    "translated_title": "‘这就是特朗普，一直如此。’",
+    "extra": {
+      "author": "",
+      "tags": [
+        "Trump, Donald J",
+        "Artificial Intelligence",
+        "United States Politics and Government",
+        "Age, Chronological"
+      ]
+    }
+  },
+  {
+    "title": "Has Trump Lost Touch With Reality?",
+    "url": "https://www.nytimes.com/2026/09/19/opinion/trump-ai-posts-reality-age.html",
+    "source": "NYTimes AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-19T11:46:06+00:00",
+    "summary": "探讨特朗普近期言论与决策是否脱离现实基础",
+    "translated_title": "特朗普是否脱离现实？",
+    "extra": {
+      "author": "Michelle Cottle, David French, Michelle Goldberg and Jillian Weinberger",
+      "tags": [
+        "audio-neutral-informative",
+        "United States Politics and Government",
+        "Artificial Intelligence",
+        "United States Defense and Military Forces",
+        "Search Engines",
+        "Legislatures and Parliaments",
+        "Midterm Elections (2026)",
+        "US and Israeli Attack on Iran (2026)",
+        "Polls and Public Opinion",
+        "Age, Chronological",
+        "Economics (Theory and Philosophy)",
+        "Data Centers",
+        "Voter Fraud (Election Fraud)",
+        "High Net Worth Individuals",
+        "Right-Wing Extremism and Alt-Right",
+        "Presidents and Presidency (US)",
+        "Democratic Party",
+        "House of Representatives",
+        "Kennedy, John F, Center for the Performing Arts",
+        "Republican Party",
+        "Senate",
+        "Supreme Court (US)",
+        "Andreessen, Marc L",
+        "Bannon, Stephen K",
+        "Bezos, Jeffrey P",
+        "Biden, Hunter",
+        "Biden, Joseph R Jr",
+        "Cowen, Tyler",
+        "Green Lantern (Fictional Character",
+        "Hogan, Hulk",
+        "Hegseth, Pete",
+        "Musk, Elon",
+        "Trump, Donald J",
+        "Yarvin, Curtis",
+        "Thiel, Peter A",
+        "United States"
+      ]
+    }
+  },
+  {
+    "title": "Trump’s Political Instincts ‘Are Clearly Fading’",
+    "url": "https://www.nytimes.com/video/opinion/100000011156735/trumps-political-instincts-are-clearly-fading.html",
+    "source": "NYTimes AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-19T10:55:00+00:00",
+    "summary": "评估特朗普政治敏锐度下降对竞选的影响",
+    "translated_title": "特朗普的政治直觉‘明显衰退’",
+    "extra": {
+      "author": "",
+      "tags": [
+        "Trump, Donald J",
+        "Artificial Intelligence",
+        "United States Politics and Government",
+        "Midterm Elections (2026)"
+      ]
+    }
+  },
+  {
+    "title": "Aaron Sorkin Goes Off Script",
+    "url": "https://www.nytimes.com/2026/09/19/magazine/aaron-sorkin-interview.html",
+    "source": "NYTimes AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-19T12:15:30+00:00",
+    "summary": "分析艾伦·索金在创作中突破常规的创新尝试",
+    "translated_title": "艾伦·索金偏离剧本",
+    "extra": {
+      "author": "Lulu Garcia-Navarro",
+      "tags": [
+        "Movies",
+        "Social Media",
+        "United States Politics and Government",
+        "Freedom of Speech and Expression",
+        "Artificial Intelligence",
+        "Actors and Actresses",
+        "Content Type: Personal Profile",
+        "Facebook Inc",
+        "Meta Platforms Inc",
+        "Sony Corporation",
+        "Eisenberg, Jesse",
+        "Haugen, Frances",
+        "O'Neill, Eugene",
+        "Strong, Jeremy (1978- )",
+        "Zuckerberg, Mark E",
+        "Artificial (Movie)",
+        "The American President (Movie)",
+        "The Social Network (Movie)",
+        "The Trial of the Chicago 7 (Movie)",
+        "The West Wing (TV Program)",
+        "Addiction (Psychology)",
+        "Fisher, Carrie"
+      ]
+    }
+  },
+  {
+    "title": "Creating a Kill Switch to Shut Down a Rogue A.I. Is Harder Than It Sounds",
+    "url": "https://www.nytimes.com/2026/09/19/science/creating-a-kill-switch-to-shut-down-a-rogue-ai-is-harder-than-it-sounds.html",
+    "source": "NYTimes AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-19T09:03:05+00:00",
+    "summary": "探讨如何有效构建AI紧急关停系统的技术挑战",
+    "translated_title": "创建关闭失控AI的机制远比想象复杂",
+    "extra": {
+      "author": "Dylan Freedman and Dustin Volz",
+      "tags": [
+        "Artificial Intelligence",
+        "Regulation and Deregulation of Industry",
+        "Computers and the Internet",
+        "Law and Legislation",
+        "Anthropic AI LLC",
+        "California",
+        "Homeland Security Department",
+        "Newsom, Gavin",
+        "United States Politics and Government"
+      ]
+    }
+  },
+  {
+    "title": "Does Aaron Sorkin Think A.I. Could Write a Good Aaron Sorkin Scene?",
+    "url": "https://www.nytimes.com/video/podcasts/100000011153960/does-aaron-sorkin-think-ai-could-write-a-good-aaron-sorkin-scene.html",
+    "source": "NYTimes AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-19T09:02:07+00:00",
+    "summary": "分析AI是否具备创作Sorkin式剧本场景的能力",
+    "translated_title": "Aaron Sorkin认为AI能模仿其剧本风格吗",
+    "extra": {
+      "author": "",
+      "tags": [
+        "Sorkin, Aaron",
+        "Artificial Intelligence",
+        "Movies",
+        "Creativity"
+      ]
+    }
+  },
+  {
+    "title": "At DraftKings, AI Targets the Gamblers Likeliest to Lose",
+    "url": "https://www.nytimes.com/2026/09/19/business/draftkings-ai.html",
+    "source": "NYTimes AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-19T12:27:28+00:00",
+    "summary": "揭秘AI如何识别易亏损赌客并实施针对性策略",
+    "translated_title": "AI精准定位高风险赌客进行干预",
+    "extra": {
+      "author": "Alex Klavens, Walt Bogdanich and Jenny Vrentas",
+      "tags": [
+        "DraftKings Inc",
+        "Gambling",
+        "Addiction (Psychology)",
+        "Artificial Intelligence",
+        "Data-Mining and Database Marketing",
+        "Advertising and Marketing",
+        "Mobile Applications",
+        "Consumer Behavior",
+        "Tests and Examinations",
+        "FanDuel.com",
+        "Kalani, Lori",
+        "Butts, Jayden",
+        "Computers and the Internet",
+        "Labor and Jobs"
+      ]
+    }
+  },
+  {
+    "title": "The Rise of A.I. Is Raising Threats From Drones, Police Group Warns",
+    "url": "https://www.nytimes.com/2026/09/19/nyregion/artificial-intelligence-drones-police.html",
+    "source": "NYTimes AI",
+    "category": "AI新闻",
+    "published_at": "2026-09-19T14:06:33+00:00",
+    "summary": "警方向公众阐明AI技术引发的新型航空安全风险",
+    "translated_title": "AI发展催生无人机威胁，警方发出警告",
+    "extra": {
+      "author": "Hurubie Meko and Maria Cramer",
+      "tags": [
+        "Drones (Pilotless Planes)",
+        "Artificial Intelligence",
+        "New York City",
+        "Federal Bureau of Investigation",
+        "Police Executive Research Forum"
+      ]
+    }
+  },
+  {
+    "title": "What AI Researchers Saw, Before Their Demand to ‘Pace’ AI",
+    "url": "https://www.youtube.com/watch?v=J3ljHm57yU0",
+    "source": "AI Explained",
+    "category": "YouTube频道",
+    "published_at": "2026-09-16T20:51:40+00:00",
+    "summary": "解析AI研究者对技术演进速度的预警与观察",
+    "translated_title": "研究者揭示AI发展加速下的潜在风险",
+    "extra": {
+      "author": "AI Explained",
+      "tags": []
+    }
+  },
+  {
+    "title": "GPT 6 Astra, so good even OpenAI are worried",
+    "url": "https://www.youtube.com/watch?v=Spuza-KwTJ4",
+    "source": "AI Explained",
+    "category": "YouTube频道",
+    "published_at": "2026-09-04T11:37:27+00:00",
+    "summary": "GPT-6 Astra突破性表现引发OpenAI警惕，技术优势显著",
+    "translated_title": "GPT 6 Astra：实力强劲，连OpenAI也感到担忧",
+    "extra": {
+      "author": "AI Explained",
+      "tags": []
+    }
+  },
+  {
+    "title": "Sam Altman :‘AGI in 2026’, just as Models Start to [Mis]Train Themselves",
+    "url": "https://www.youtube.com/watch?v=KL9_1GbmCic",
+    "source": "AI Explained",
+    "category": "YouTube频道",
+    "published_at": "2026-08-27T19:16:24+00:00",
+    "summary": "Sam Altman预测2026年实现AGI，模型训练出现自我学习现象",
+    "translated_title": "Sam Altman预言2026年AGI，模型开始自我训练",
+    "extra": {
+      "author": "AI Explained",
+      "tags": []
+    }
+  },
+  {
+    "title": "AI is getting a little out of control",
+    "url": "https://www.youtube.com/watch?v=xGzseSSStnw",
+    "source": "AI Explained",
+    "category": "YouTube频道",
+    "published_at": "2026-08-06T15:02:06+00:00",
+    "summary": "AI技术发展速度超出预期，失控隐患引发行业担忧",
+    "translated_title": "AI逐渐失控风险加剧",
+    "extra": {
+      "author": "AI Explained",
+      "tags": []
+    }
+  },
+  {
+    "title": "GPT-6 Goes Rogue? The HuggingFace Incident, Sans Hype",
+    "url": "https://www.youtube.com/watch?v=wzY2fV4Mp3U",
+    "source": "AI Explained",
+    "category": "YouTube频道",
+    "published_at": "2026-07-22T16:36:53+00:00",
+    "summary": "GPT-6异常行为引发关注，HuggingFace事件揭示模型风险",
+    "translated_title": "GPT-6失控？HuggingFace事件背后真相",
+    "extra": {
+      "author": "AI Explained",
+      "tags": []
+    }
+  },
+  {
+    "title": "A Model Explosion: GPT 5.6 Sol, Grok 4.5 and Meta Muse Rewrite the Rules",
+    "url": "https://www.youtube.com/watch?v=mWlCituW7wo",
+    "source": "AI Explained",
+    "category": "YouTube频道",
+    "published_at": "2026-07-10T12:40:15+00:00",
+    "summary": "多款新型AI模型快速涌现，重新定义技术发展规则",
+    "translated_title": "模型爆发式增长：GPT 5.6 Sol等重塑规则",
+    "extra": {
+      "author": "AI Explained",
+      "tags": []
+    }
+  },
+  {
+    "title": "Fable 5 vs GPT 5.6 Sol: The Early Results",
+    "url": "https://www.youtube.com/watch?v=y24lF1q4SFY",
+    "source": "AI Explained",
+    "category": "YouTube频道",
+    "published_at": "2026-07-02T16:27:26+00:00",
+    "summary": "对比Fable 5与GPT 5.6早期成果，分析各自技术优势与局限",
+    "translated_title": "Fable 5与GPT 5.6对比：早期成果分析",
+    "extra": {
+      "author": "AI Explained",
+      "tags": []
+    }
+  },
+  {
+    "title": "Claude Fable Blocked - 11 Quiet Details on What’s Next",
+    "url": "https://www.youtube.com/watch?v=Qj71N0tBzRo",
+    "source": "AI Explained",
+    "category": "YouTube频道",
+    "published_at": "2026-06-14T14:52:27+00:00",
+    "summary": "解析Claude Fable发展受阻原因及未来可能采取的11项策略",
+    "translated_title": "Claude Fable受阻：接下来的11个关键细节",
+    "extra": {
+      "author": "AI Explained",
+      "tags": []
+    }
+  },
+  {
+    "title": "Claude Fable 5 - Full 319 page Breakdown",
+    "url": "https://www.youtube.com/watch?v=haK1KoQWm18",
+    "source": "AI Explained",
+    "category": "YouTube频道",
+    "published_at": "2026-06-10T18:43:12+00:00",
+    "summary": "319页详细拆解Claude Fable 5核心技术架构与功能设计",
+    "translated_title": "Claude Fable 5全面解析：319页深度拆解",
+    "extra": {
+      "author": "AI Explained",
+      "tags": []
+    }
+  },
+  {
+    "title": "New Claude Opus 4.8: 15 Things You May’ve Missed",
+    "url": "https://www.youtube.com/watch?v=aJvP3nXWkwM",
+    "source": "AI Explained",
+    "category": "YouTube频道",
+    "published_at": "2026-05-29T15:07:35+00:00",
+    "summary": "梳理Claude Opus 4.8更新内容，揭示15项易被忽视的重要改进",
+    "translated_title": "新Claude Opus 4.8：你可能错过的15个亮点",
+    "extra": {
+      "author": "AI Explained",
+      "tags": []
+    }
+  },
+  {
+    "title": "Two Rival Bets on AGI: Google I/O Highlights",
+    "url": "https://www.youtube.com/watch?v=o_av1b9rs2g",
+    "source": "AI Explained",
+    "category": "YouTube频道",
+    "published_at": "2026-05-20T16:50:34+00:00",
+    "summary": "聚焦Google I/O展示的两大AGI研发方案及其技术突破点",
+    "translated_title": "两大竞品押注AGI：Google I/O亮点回顾",
+    "extra": {
+      "author": "AI Explained",
+      "tags": []
+    }
+  },
+  {
+    "title": "GPT 5.5 Arrives, DeepSeek V4 Drops, and the Compute War Intensifies",
+    "url": "https://www.youtube.com/watch?v=jz0rNhfAKo8",
+    "source": "AI Explained",
+    "category": "YouTube频道",
+    "published_at": "2026-04-24T18:45:02+00:00",
+    "summary": "最新AI模型GPT 5.5和DeepSeek V4发布，计算竞争持续升级",
+    "translated_title": "GPT 5.5发布，DeepSeek V4推出，计算竞争持续升级",
+    "extra": {
+      "author": "AI Explained",
+      "tags": []
+    }
+  },
+  {
+    "title": "Claude Opus 4.7 - A New Frontier, in Performance … and Drama",
+    "url": "https://www.youtube.com/watch?v=QVJcdfkRpH8",
+    "source": "AI Explained",
+    "category": "YouTube频道",
+    "published_at": "2026-04-17T18:07:46+00:00",
+    "summary": "Claude 4.7性能突破，带来新纪元与戏剧性变革",
+    "translated_title": "Claude 4.7开启新纪元：性能突破与戏剧性升级",
+    "extra": {
+      "author": "AI Explained",
+      "tags": []
+    }
+  },
+  {
+    "title": "Claude Mythos: Highlights from 244-page Release",
+    "url": "https://www.youtube.com/watch?v=txx6ec6MLNY",
+    "source": "AI Explained",
+    "category": "YouTube频道",
+    "published_at": "2026-04-08T17:39:20+00:00",
+    "summary": "Claude Mythos发布244页内容，聚焦技术亮点与突破",
+    "translated_title": "Claude Mythos：244页发布内容亮点速览",
+    "extra": {
+      "author": "AI Explained",
+      "tags": []
+    }
+  },
+  {
+    "title": "Two AI Models Set to “stir government urgency”, But Will This Challenge Undo Them?",
+    "url": "https://www.youtube.com/watch?v=s4tptozUJ8Y",
+    "source": "AI Explained",
+    "category": "YouTube频道",
+    "published_at": "2026-03-26T20:15:12+00:00",
+    "summary": "两AI模型有望引发政府紧急行动，但挑战能否扭转局势仍存疑",
+    "translated_title": "两AI模型或引发政府紧急应对，挑战能否逆转局势？",
+    "extra": {
+      "author": "AI Explained",
+      "tags": []
+    }
+  },
+  {
+    "title": "AI News: All AI Labs Want To Slow Down (Except One)",
+    "url": "https://www.youtube.com/watch?v=Kof2VcHTjrk",
+    "source": "Matthew Berman",
+    "category": "YouTube频道",
+    "published_at": "2026-09-18T15:12:55+00:00",
+    "summary": "多数AI实验室放缓研发节奏，唯有一家加速推进",
+    "translated_title": "AI快讯：所有AI实验室欲放缓节奏（唯有一家例外）",
+    "extra": {
+      "author": "Matt Wolfe",
+      "tags": []
+    }
+  },
+  {
+    "title": "He Built The Ultimate Spy Tool (Free and Open-Source)",
+    "url": "https://www.youtube.com/watch?v=S2VJU5DQqlU",
+    "source": "Matthew Berman",
+    "category": "YouTube频道",
+    "published_at": "2026-09-16T20:57:15+00:00",
+    "summary": "展示一款功能强大的免费开源间谍软件开发案例",
+    "translated_title": "他打造了终极间谍工具（免费且开源）",
+    "extra": {
+      "author": "Matt Wolfe",
+      "tags": []
+    }
+  },
+  {
+    "title": "Minecraft + ChatGPT (Holy Crap!)",
+    "url": "https://www.youtube.com/shorts/nF45_dhsmWY",
+    "source": "Matthew Berman",
+    "category": "YouTube频道",
+    "published_at": "2026-09-16T14:32:01+00:00",
+    "summary": "揭示Minecraft与AI对话模型的创新整合应用",
+    "translated_title": "我的天哪！Minecraft与ChatGPT结合",
+    "extra": {
+      "author": "Matt Wolfe",
+      "tags": []
+    }
+  },
+  {
+    "title": "I Was Shocked How Easy This Agent Was To Use",
+    "url": "https://www.youtube.com/shorts/FxcYK5WOk1c",
+    "source": "Matthew Berman",
+    "category": "YouTube频道",
+    "published_at": "2026-09-15T12:26:35+00:00",
+    "summary": "体验AI代理工具简单直观的操作界面",
+    "translated_title": "我震惊于这个Agent的易用性",
+    "extra": {
+      "author": "Matt Wolfe",
+      "tags": []
+    }
+  },
+  {
+    "title": "Did AI Doom Us All?",
+    "url": "https://www.youtube.com/shorts/mku_K8pCLx4",
+    "source": "Matthew Berman",
+    "category": "YouTube频道",
+    "published_at": "2026-09-14T16:15:59+00:00",
+    "summary": "探讨人工智能发展的潜在风险与危机",
+    "translated_title": "AI是否注定毁灭人类？",
+    "extra": {
+      "author": "Matt Wolfe",
+      "tags": []
+    }
+  },
+  {
+    "title": "AI News: The AI World is REALLY Scared Right Now",
+    "url": "https://www.youtube.com/watch?v=JwTCjarfJYw",
+    "source": "Matthew Berman",
+    "category": "YouTube频道",
+    "published_at": "2026-09-11T15:00:00+00:00",
+    "summary": "反映当前AI技术引发的行业安全担忧",
+    "translated_title": "AI资讯：AI领域正陷入恐慌",
+    "extra": {
+      "author": "Matt Wolfe",
+      "tags": []
+    }
+  },
+  {
+    "title": "I Built A Tool To Detect AI Video (You Can Have It)",
+    "url": "https://www.youtube.com/watch?v=-KcHn0QcSb0",
+    "source": "Matthew Berman",
+    "category": "YouTube频道",
+    "published_at": "2026-09-09T22:18:17+00:00",
+    "summary": "介绍一款实用的AI视频检测工具及其开放获取",
+    "translated_title": "我开发了AI视频检测工具（你可以拥有）",
+    "extra": {
+      "author": "Matt Wolfe",
+      "tags": []
+    }
+  },
+  {
+    "title": "This AI Makes Any Photo 3D",
+    "url": "https://www.youtube.com/shorts/iSXeiUXiln8",
+    "source": "Matthew Berman",
+    "category": "YouTube频道",
+    "published_at": "2026-09-09T12:26:29+00:00",
+    "summary": "利用AI技术将普通照片转化为三维模型，拓展创作可能性",
+    "translated_title": "这款AI可将任何照片转为3D",
+    "extra": {
+      "author": "Matt Wolfe",
+      "tags": []
+    }
+  },
+  {
+    "title": "3 Big ChatGPT Updates You Need to Know",
+    "url": "https://www.youtube.com/shorts/LJ2YeWQ_uJE",
+    "source": "Matthew Berman",
+    "category": "YouTube频道",
+    "published_at": "2026-09-08T15:55:26+00:00",
+    "summary": "梳理ChatGPT近期三大关键升级，涵盖功能强化与性能优化",
+    "translated_title": "ChatGPT三大重要更新需了解",
+    "extra": {
+      "author": "Matt Wolfe",
+      "tags": []
+    }
+  },
+  {
+    "title": "This AI Turns Insane Ideas Into 3D Objects",
+    "url": "https://www.youtube.com/shorts/tqUEnRj0NbM",
+    "source": "Matthew Berman",
+    "category": "YouTube频道",
+    "published_at": "2026-09-07T16:06:22+00:00",
+    "summary": "AI技术可将离奇创意转化为三维实物，激发设计灵感",
+    "translated_title": "这款AI将疯狂构想变为3D实物",
+    "extra": {
+      "author": "Matt Wolfe",
+      "tags": []
+    }
+  },
+  {
+    "title": "AI News: The Most Insane Week So Far This Year!",
+    "url": "https://www.youtube.com/watch?v=GfPZm9yucQo",
+    "source": "Matthew Berman",
+    "category": "YouTube频道",
+    "published_at": "2026-09-04T15:00:34+00:00",
+    "summary": "盘点AI领域本周最令人震撼的技术突破与行业动态",
+    "translated_title": "AI资讯：今年最疯狂的一周",
+    "extra": {
+      "author": "Matt Wolfe",
+      "tags": []
+    }
+  },
+  {
+    "title": "GPT-6 Astra Is Finally Here (And It’s REALLY Good)",
+    "url": "https://www.youtube.com/watch?v=GGzT7zVrRTU",
+    "source": "Matthew Berman",
+    "category": "YouTube频道",
+    "published_at": "2026-09-03T22:45:47+00:00",
+    "summary": "GPT-6 Astra正式发布，性能表现令人惊艳。",
+    "translated_title": "GPT-6 Astra终于发布（实至名归）",
+    "extra": {
+      "author": "Matt Wolfe",
+      "tags": []
+    }
+  },
+  {
+    "title": "This Robot Can Learn Almost ANY Task",
+    "url": "https://www.youtube.com/shorts/K_iUGDw2Sho",
+    "source": "Matthew Berman",
+    "category": "YouTube频道",
+    "published_at": "2026-09-03T14:23:29+00:00",
+    "summary": "新型机器人突破学习限制，可掌握各类复杂任务。",
+    "translated_title": "这款机器人几乎能学习任何任务",
+    "extra": {
+      "author": "Matt Wolfe",
+      "tags": []
+    }
+  },
+  {
+    "title": "Why Aren't People Talking About This Google Model?",
+    "url": "https://www.youtube.com/watch?v=Po_Dh7WLgmM",
+    "source": "Matthew Berman",
+    "category": "YouTube频道",
+    "published_at": "2026-09-03T02:14:55+00:00",
+    "summary": "探讨谷歌新模型为何未引发广泛关注的原因。",
+    "translated_title": "为何这款谷歌模型鲜有人关注？",
+    "extra": {
+      "author": "Matt Wolfe",
+      "tags": []
+    }
+  },
+  {
+    "title": "The One-Prompt Dashboard Trick",
+    "url": "https://www.youtube.com/shorts/-goIBDS9UNU",
+    "source": "Matthew Berman",
+    "category": "YouTube频道",
+    "published_at": "2026-09-01T14:27:45+00:00",
+    "summary": "分享通过单个提示词高效操作仪表板的方法。",
+    "translated_title": "单提示词仪表板操作技巧",
+    "extra": {
+      "author": "Matt Wolfe",
+      "tags": []
+    }
+  },
+  {
+    "title": "Jev is HERE. How to use it",
+    "url": "https://www.youtube.com/watch?v=4mTLpuQpB80",
+    "source": "AI Jason",
+    "category": "YouTube频道",
+    "published_at": "2026-09-18T18:35:33+00:00",
+    "summary": "详解Jev工具的使用方法，解锁其核心功能。",
+    "translated_title": "Jev正式登场。如何使用它？",
+    "extra": {
+      "author": "Greg Isenberg",
+      "tags": []
+    }
+  },
+  {
+    "title": "Instinct AI is For Real. What You Need to Know.",
+    "url": "https://www.youtube.com/watch?v=mUAsaprJ66s",
+    "source": "AI Jason",
+    "category": "YouTube频道",
+    "published_at": "2026-09-15T18:25:04+00:00",
+    "summary": "解析Instinct AI的真实技术实力与应用前景",
+    "translated_title": "Instinct AI实至名归：你需要了解的关键信息",
+    "extra": {
+      "author": "Greg Isenberg",
+      "tags": []
+    }
+  },
+  {
+    "title": "Building a Software Factory that actually works (Full Course)",
+    "url": "https://www.youtube.com/watch?v=_LCeJZFIsd4",
+    "source": "AI Jason",
+    "category": "YouTube频道",
+    "published_at": "2026-09-14T17:30:17+00:00",
+    "summary": "揭秘构建高效软件工厂的全流程课程",
+    "translated_title": "构建真正高效运转的软件工厂（完整课程）",
+    "extra": {
+      "author": "Greg Isenberg",
+      "tags": []
+    }
+  },
+  {
+    "title": "GPT-6 Astra: How I’d Make Money With It",
+    "url": "https://www.youtube.com/watch?v=nglqTHwuZ-8",
+    "source": "AI Jason",
+    "category": "YouTube频道",
+    "published_at": "2026-09-10T18:11:19+00:00",
+    "summary": "分享利用GPT-6 Astra实现盈利的创新方法",
+    "translated_title": "GPT-6 Astra：我的盈利策略",
+    "extra": {
+      "author": "Greg Isenberg",
+      "tags": []
+    }
+  },
+  {
+    "title": "I'm Obsessed With Local AI. Here's Why",
+    "url": "https://www.youtube.com/watch?v=UtFo1ZNC2ns",
+    "source": "AI Jason",
+    "category": "YouTube频道",
+    "published_at": "2026-09-08T16:30:21+00:00",
+    "summary": "探讨本地AI技术的独特优势与发展潜力",
+    "translated_title": "我为何痴迷本地AI",
+    "extra": {
+      "author": "Greg Isenberg",
+      "tags": []
+    }
+  },
+  {
+    "title": "5 GitHub Repos: Kill AI Slop, Go Viral, Make Money",
+    "url": "https://www.youtube.com/watch?v=9_SZFIW7tus",
+    "source": "AI Jason",
+    "category": "YouTube频道",
+    "published_at": "2026-09-02T18:15:30+00:00",
+    "summary": "精选5个GitHub项目，教你通过AI内容优化获取流量与收益",
+    "translated_title": "5个GitHub仓库：清理AI垃圾、引爆流量、实现盈利",
+    "extra": {
+      "author": "Greg Isenberg",
+      "tags": []
+    }
+  },
+  {
+    "title": "Marketing Engineer: The $1M Job with AI Agents",
+    "url": "https://www.youtube.com/watch?v=8ZC1G1ezN5o",
+    "source": "AI Jason",
+    "category": "YouTube频道",
+    "published_at": "2026-08-31T18:45:11+00:00",
+    "summary": "探索利用AI代理进行营销，实现百万收入的创新职业路径",
+    "translated_title": "营销工程师：用AI代理赚取100万美元的工作",
+    "extra": {
+      "author": "Greg Isenberg",
+      "tags": []
+    }
+  },
+  {
+    "title": "WebMCP: Let AI Agents pay you money",
+    "url": "https://www.youtube.com/watch?v=EoNH3Tn8wYE",
+    "source": "AI Jason",
+    "category": "YouTube频道",
+    "published_at": "2026-08-26T18:40:21+00:00",
+    "summary": "介绍WebMCP平台，通过AI代理实现自动化创收的新模式",
+    "translated_title": "WebMCP：让AI代理为你赚钱",
+    "extra": {
+      "author": "Greg Isenberg",
+      "tags": []
+    }
+  },
+  {
+    "title": "Making $$$ with Grok Bot",
+    "url": "https://www.youtube.com/watch?v=qQluNEfSVHk",
+    "source": "AI Jason",
+    "category": "YouTube频道",
+    "published_at": "2026-08-21T20:10:35+00:00",
+    "summary": "分享利用Grok Bot进行盈利的实际案例与技巧",
+    "translated_title": "用Grok Bot赚取财富",
+    "extra": {
+      "author": "Greg Isenberg",
+      "tags": []
+    }
+  },
+  {
+    "title": "How I Use Skills + AI Agents to Run My Life",
+    "url": "https://www.youtube.com/watch?v=xHsftiyT9pQ",
+    "source": "AI Jason",
+    "category": "YouTube频道",
+    "published_at": "2026-08-19T20:00:27+00:00",
+    "summary": "结合个人技能与AI代理，高效管理生活的实用方法",
+    "translated_title": "如何用技能+AI代理管理我的生活",
+    "extra": {
+      "author": "Greg Isenberg",
+      "tags": []
+    }
+  },
+  {
+    "title": "Claude Code New Features, Explained",
+    "url": "https://www.youtube.com/watch?v=SkY-tR9kf-k",
+    "source": "AI Jason",
+    "category": "YouTube频道",
+    "published_at": "2026-08-17T18:00:14+00:00",
+    "summary": "详解Claude代码的新功能，探讨其在开发中的实际应用",
+    "translated_title": "Claude代码新功能解析",
+    "extra": {
+      "author": "Greg Isenberg",
+      "tags": []
+    }
+  },
+  {
+    "title": "My top secrets to running an AI Agent Workforce",
+    "url": "https://www.youtube.com/watch?v=EzQAgnjTq2k",
+    "source": "AI Jason",
+    "category": "YouTube频道",
+    "published_at": "2026-08-12T21:00:13+00:00",
+    "summary": "分享构建和运营AI代理团队的高效策略与实战经验",
+    "translated_title": "管理AI代理团队的顶级秘诀",
+    "extra": {
+      "author": "Greg Isenberg",
+      "tags": []
+    }
+  },
+  {
+    "title": "Cloudflare will make 1000+ AI millionaires",
+    "url": "https://www.youtube.com/watch?v=MNNfat_QP0E",
+    "source": "AI Jason",
+    "category": "YouTube频道",
+    "published_at": "2026-08-10T18:00:30+00:00",
+    "summary": "解析Cloudflare如何通过AI技术创造大量高净值人群",
+    "translated_title": "Cloudflare将培养1000多位AI百万富豪",
+    "extra": {
+      "author": "Greg Isenberg",
+      "tags": []
+    }
+  },
+  {
+    "title": "Marketing Agents Masterclass (GROW your startup)",
+    "url": "https://www.youtube.com/watch?v=mD7JpNHLT70",
+    "source": "AI Jason",
+    "category": "YouTube频道",
+    "published_at": "2026-08-05T20:40:33+00:00",
+    "summary": "系统传授营销代理技巧，加速初创企业市场拓展",
+    "translated_title": "营销代理大师班（助力初创企业成长）",
+    "extra": {
+      "author": "Greg Isenberg",
+      "tags": []
+    }
+  },
+  {
+    "title": "Why Graph Engineering will 10x your Claude/Codex",
+    "url": "https://www.youtube.com/watch?v=JWhICz1QR8M",
+    "source": "AI Jason",
+    "category": "YouTube频道",
+    "published_at": "2026-08-03T18:30:26+00:00",
+    "summary": "揭示图工程技术对AI模型性能的革命性优化方法",
+    "translated_title": "图工程如何提升Claude/Codex十倍效能",
+    "extra": {
+      "author": "Greg Isenberg",
+      "tags": []
+    }
+  },
+  {
+    "title": "World’s First AI Actress MELTS DOWN In Piers Morgan Interview! + Tom Bilyeu, Prof Jiang &amp; Tom Conti",
+    "url": "https://www.youtube.com/watch?v=x4yyBWkYSHs",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T18:00:19+00:00",
+    "summary": "记录AI女演员在访谈中失控的震撼瞬间与专家对话",
+    "translated_title": "全球首例AI女演员专访崩溃实录！+ 汤姆·比利欧、江教授及汤姆·康蒂",
+    "extra": {
+      "channel": "Piers Morgan Uncensored",
+      "views": "543727",
+      "likes": "5374"
+    }
+  },
+  {
+    "title": "The REAL Reason AI Is Already Out Of Control",
+    "url": "https://www.youtube.com/watch?v=Zw5DkDfKw_c",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T18:00:07+00:00",
+    "summary": "揭秘AI失控背后的真实原因，引发广泛关注。",
+    "translated_title": "AI已失控的真实原因",
+    "extra": {
+      "channel": "The Diary Of A CEO Clips",
+      "views": "414657",
+      "likes": "3730"
+    }
+  },
+  {
+    "title": "Faulty AI-assisted intel nearly set off US military op on Chinese ship: Sources",
+    "url": "https://www.youtube.com/watch?v=Bo-wbbnUCqo",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T18:14:31+00:00",
+    "summary": "AI辅助情报失误险些导致美军误对华舰发动行动",
+    "translated_title": "故障AI情报险些引发美军对华舰行动",
+    "extra": {
+      "channel": "CNN",
+      "views": "337198",
+      "likes": "2301"
+    }
+  },
+  {
+    "title": "&quot;Self-Replicating Swarms&quot; AI Labs Are Lying About What&#39;s Happening | Connor Leahy",
+    "url": "https://www.youtube.com/watch?v=rtir6QmQQRg",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T17:00:10+00:00",
+    "summary": "AI实验室夸大‘自我复制群’风险，掩盖真实进展",
+    "translated_title": "‘自我复制群’AI实验室在隐瞒真相 | Connor Leahy",
+    "extra": {
+      "channel": "Danny Jones",
+      "views": "267380",
+      "likes": "2788"
+    }
+  },
+  {
+    "title": "छोटया नवरा-बायकोची भन्नाट कॉमेडी 😯🤪 #shorts #viral #marathi #funny #ai #comedy #navrabayko",
+    "url": "https://www.youtube.com/watch?v=60RwoZrII50",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-19T04:30:34+00:00",
+    "summary": "AI创作的小新郎新妇搞笑短片引爆网络热议",
+    "translated_title": "小新郎新妇搞笑喜剧 😯🤪 #短片 #病毒式传播 #马拉地语 #好笑 #AI #喜剧 #navrabayko",
+    "extra": {
+      "channel": "Gaavchi Dhamal",
+      "views": "224511",
+      "likes": "6726"
+    }
+  },
+  {
+    "title": "The last IMO problem AI could not solve",
+    "url": "https://www.youtube.com/watch?v=Nbwv5wHQoj0",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T17:12:53+00:00",
+    "summary": "人类数学难题终AI所不能，引发算法边界探讨",
+    "translated_title": "AI无法解决的最后一道IMO数学题",
+    "extra": {
+      "channel": "3Blue1Brown",
+      "views": "952115",
+      "likes": "14628"
+    }
+  },
+  {
+    "title": "Ending മിസ്സാക്കല്ലേ... ചോദ്യം കണ്ടപ്പോൾ ഞെട്ടി 😂📚 #ai #ComedyShorts #Funny #Viral #Trending #Shorts",
+    "url": "https://www.youtube.com/watch?v=1iVHF3hJB2E",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-19T05:00:18+00:00",
+    "summary": "幽默短视频引发热议，探讨AI与人类智慧的对比",
+    "translated_title": "错过什么吗...看到问题时惊讶 😂📚 #AI #喜剧短片 #有趣 #病毒式传播 #热门 #短片",
+    "extra": {
+      "channel": "CoColemon",
+      "views": "197104",
+      "likes": "2405"
+    }
+  },
+  {
+    "title": "The last IMO problem AI could not solve",
+    "url": "https://www.youtube.com/watch?v=bRQEWPA832A",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T17:14:08+00:00",
+    "summary": "AI攻克数学难题，挑战IMO最后一个问题",
+    "translated_title": "AI无法解决的最后一个IMO问题",
+    "extra": {
+      "channel": "3Blue1Brown",
+      "views": "249269",
+      "likes": "10169"
+    }
+  },
+  {
+    "title": "J’ai acheté l’iPhone 18 Pro ! (le meilleur arrive après…)",
+    "url": "https://www.youtube.com/watch?v=Eb0m2cdjgLg",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T15:33:10+00:00",
+    "summary": "新款iPhone 18 Pro发布，秀出未来科技感",
+    "translated_title": "我买了iPhone 18 Pro！（最好的还在后面...）",
+    "extra": {
+      "channel": "Jojol",
+      "views": "244832",
+      "likes": "4406"
+    }
+  },
+  {
+    "title": "&quot;AI Existential Risk&quot; Was Invented to Distract Us",
+    "url": "https://www.youtube.com/watch?v=pauBYSQ1K_c",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T21:16:19+00:00",
+    "summary": "AI存在主义风险本质是吸引眼球的噱头",
+    "translated_title": "'AI存在主义风险'是人为制造的干扰",
+    "extra": {
+      "channel": "Adam Conover",
+      "views": "175805",
+      "likes": "8282"
+    }
+  },
+  {
+    "title": "Reacting to MY OWN AI Videos..",
+    "url": "https://www.youtube.com/watch?v=1u5ZpSyEljc",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T21:00:21+00:00",
+    "summary": "创作者回应自己的AI视频，展现技术自我对话",
+    "translated_title": "回应我的AI视频",
+    "extra": {
+      "channel": "DJLovesTurbo",
+      "views": "92451",
+      "likes": "3424"
+    }
+  },
+  {
+    "title": "Is there really a 10% chance AI overlords will destroy us?",
+    "url": "https://www.youtube.com/watch?v=EO4jMOioxpo",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T16:41:19+00:00",
+    "summary": "探讨AI统治者摧毁人类10%可能性的争议性话题",
+    "translated_title": "AI统治者真的有10%概率毁灭人类吗？",
+    "extra": {
+      "channel": "Dave Jorgenson",
+      "views": "157042",
+      "likes": "17844"
+    }
+  },
+  {
+    "title": "La classica cosa che portava la bidella ai prof dicendo che non era per gli alunni ☺️​:",
+    "url": "https://www.youtube.com/watch?v=iTxS-wiIzO4",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T18:46:12+00:00",
+    "summary": "讲述学校管理员向老师举报'此事与学生无关'的幽默桥段",
+    "translated_title": "管理员告状老师：此事与学生无关 😄",
+    "extra": {
+      "channel": "🪐𝙅𝙫𝙨𝙩_𝙋𝙞𝙚𝙧☄️",
+      "views": "279776",
+      "likes": "13870"
+    }
+  },
+  {
+    "title": "Made this usind AI ans it turned out so real #gameofthrones #got #trending #explorepage",
+    "url": "https://www.youtube.com/watch?v=hQaDRUKj4tU",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T17:12:50+00:00",
+    "summary": "AI创作成果惊人，仿《权力的游戏》画面引发热议",
+    "translated_title": "用AI制作却如此真实，#权力的游戏引爆话题",
+    "extra": {
+      "channel": "Richa Shahi",
+      "views": "334307",
+      "likes": "10300"
+    }
+  },
+  {
+    "title": "EXPLOSIONS At Russian Nuclear Power Plant; AI Almost Starts WAR With China | The Enforcer News",
+    "url": "https://www.youtube.com/watch?v=e1NuEP7rMfg",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T19:16:50+00:00",
+    "summary": "俄罗斯核电站爆炸事件曝光，AI误判或引发中战争端",
+    "translated_title": "俄罗斯核电站爆炸；AI险些引发中战争端 | The Enforcer News",
+    "extra": {
+      "channel": "The Enforcer",
+      "views": "158840",
+      "likes": "9153"
+    }
+  },
+  {
+    "title": "Ahora usaré chat gpt eco jajajaja #shorts",
+    "url": "https://www.youtube.com/watch?v=pWAqb0LdK-g",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T16:09:11+00:00",
+    "summary": "西班牙语用户幽默展示用Chat GPT处理环保的创意 #短视频",
+    "translated_title": "现在用Chat GPT解决环保问题哈哈哈 #短视频",
+    "extra": {
+      "channel": "bryanmlendez",
+      "views": "139144",
+      "likes": "9525"
+    }
+  },
+  {
+    "title": "ChatGPT Is An Admin For Roblox?! #roblox #forsaken #forsakenroblox",
+    "url": "https://www.youtube.com/watch?v=7TlEoYjYsbA",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T19:00:13+00:00",
+    "summary": "探讨ChatGPT如何革新Roblox管理方式，引发用户热议",
+    "translated_title": "ChatGPT竟成Roblox管理员？#roblox #forsaken #forsakenroblox",
+    "extra": {
+      "channel": "PlagueCuh",
+      "views": "251472",
+      "likes": "9631"
+    }
+  },
+  {
+    "title": "GPT-6 Astra + ChatGPT Work Changes Everything",
+    "url": "https://www.youtube.com/watch?v=sQwp9GrkGi4",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-14T13:00:21+00:00",
+    "summary": "分析GPT-6 Astra与ChatGPT Work融合如何颠覆传统工作模式",
+    "translated_title": "GPT-6 Astra与ChatGPT Work革新行业格局",
+    "extra": {
+      "channel": "Paul J Lipsky",
+      "views": "203066",
+      "likes": "1559"
+    }
+  },
+  {
+    "title": "12 Life-Changing Ways To Use ChatGPT in 2026",
+    "url": "https://www.youtube.com/watch?v=WfSiryTVDiY",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-08-19T17:45:03+00:00",
+    "summary": "盘点2026年ChatGPT在教育、创作等领域的12项突破性应用",
+    "translated_title": "2026年ChatGPT的12种颠覆性应用场景",
+    "extra": {
+      "channel": "Charlie Chang",
+      "views": "208441",
+      "likes": "3313"
+    }
+  },
+  {
+    "title": "ChatGPT for Beginners - 2026 Edition",
+    "url": "https://www.youtube.com/watch?v=hOe0maWOhp8",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2025-01-01T16:08:05+00:00",
+    "summary": "为新手量身打造的ChatGPT2026使用手册，涵盖基础功能与进阶技巧",
+    "translated_title": "ChatGPT入门指南2026版",
+    "extra": {
+      "channel": "AI Mastermind",
+      "views": "562775",
+      "likes": "20568"
+    }
+  },
+  {
+    "title": "Nunca debieron hacer esta pregunta a ChatGPT 😭🤖 #Willyrex #Fargan #Vegetta #iPhoneDuo",
+    "url": "https://www.youtube.com/watch?v=FK8APBwAUIo",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T15:56:40+00:00",
+    "summary": "揭示不当提问ChatGPT可能引发的意外后果，警示用户合理使用AI工具",
+    "translated_title": "不该问ChatGPT这个问题 😭🤖 #Willyrex #Fargan #Vegetta #iPhoneDuo",
+    "extra": {
+      "channel": "Willy Shorts",
+      "views": "113577",
+      "likes": "3730"
+    }
+  },
+  {
+    "title": "Jadi Spider-Man Tapi Dilupain Seluruh Dunia #SpiderMan #ChatGPT #ClaudeAI #GoogleGemini",
+    "url": "https://www.youtube.com/watch?v=EbEL1VG8Zpo",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-19T07:00:31+00:00",
+    "summary": "AI模型试图化身蜘蛛侠却遭全球忽视",
+    "translated_title": "成为蜘蛛侠却遭全球遗忘 #SpiderMan #ChatGPT #ClaudeAI #GoogleGemini",
+    "extra": {
+      "channel": "Akbar Alatas Official",
+      "views": "71968",
+      "likes": "5753"
+    }
+  },
+  {
+    "title": "Maionese 🥀",
+    "url": "https://www.youtube.com/watch?v=88StyAog07s",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T16:00:31+00:00",
+    "summary": "趣味视频展示蛋黄酱的创意使用方式",
+    "translated_title": "蛋黄酱 🥀",
+    "extra": {
+      "channel": "MemeLampo",
+      "views": "116118",
+      "likes": "1593"
+    }
+  },
+  {
+    "title": "I Let ChatGPT-6 Astra Build My Own Higgsfield AI (Copy This)",
+    "url": "https://www.youtube.com/watch?v=CN6BhyERbas",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T15:51:36+00:00",
+    "summary": "用户借助ChatGPT-6构建个性化AI模型教程",
+    "translated_title": "我让ChatGPT-6协助打造专属Higgsfield AI（复制此方法）",
+    "extra": {
+      "channel": "Zinho Automates",
+      "views": "40170",
+      "likes": 0
+    }
+  },
+  {
+    "title": "DON&#39;T ASK CHATGPT THIS AT 3AM | Rush Studios",
+    "url": "https://www.youtube.com/watch?v=wseOt3in6BE",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T18:00:20+00:00",
+    "summary": "幽默指南揭示深夜提问ChatGPT的潜在风险",
+    "translated_title": "别在凌晨三点问ChatGPT这些事 | Rush Studios",
+    "extra": {
+      "channel": "Rush Studios",
+      "views": "43000",
+      "likes": "610"
+    }
+  },
+  {
+    "title": "SUA CONVERSA COM O CHATGPT PODE VAZAR? FT. PAULO AGUIAR | #ACHISMOS PODCAST",
+    "url": "https://www.youtube.com/watch?v=4WNUlvNsbiM",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T21:00:01+00:00",
+    "summary": "播客探讨ChatGPT对话隐私安全问题",
+    "translated_title": "您的ChatGPT对话会泄露吗？FT.保罗·阿圭亚 | #ACHISMOS播客",
+    "extra": {
+      "channel": "AchismosTV",
+      "views": "21955",
+      "likes": "1313"
+    }
+  },
+  {
+    "title": "Try Not to Laugh Challenge 50 🤣 | ChatGPT Gone wrong 45 | #funny #viral #shorts",
+    "url": "https://www.youtube.com/watch?v=2t-egKYtx2g",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T15:50:56+00:00",
+    "summary": "系列短视频展示ChatGPT使用失误的搞笑片段，结合挑战主题引发传播热潮",
+    "translated_title": "别笑挑战50集 😣 | ChatGPT误用引发网络热议 #搞笑 #病毒式传播 #短视频",
+    "extra": {
+      "channel": "Aanu X Reacts 2.0",
+      "views": "52085",
+      "likes": 0
+    }
+  },
+  {
+    "title": "IIT Bombay Student Suicide: परीक्षा हॉल में ChatGpt से क्वेशन सॉल्व कर रहा था छात्र | Breaking News",
+    "url": "https://www.youtube.com/watch?v=YobE5iLOr4I",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-19T08:17:21+00:00",
+    "summary": "印度理工学院学生考试中使用ChatGPT解题引发悲剧，网络持续关注",
+    "translated_title": "印度理工学院学生自杀事件：考生疑似用ChatGPT作弊 | 突发新闻",
+    "extra": {
+      "channel": "ABP NEWS",
+      "views": "16597",
+      "likes": "48"
+    }
+  },
+  {
+    "title": "Bro geiert fr auf ChatGPT 😭💀",
+    "url": "https://www.youtube.com/watch?v=ezr7DcPo5HM",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T19:00:27+00:00",
+    "summary": "视频记录用户因ChatGPT使用不当引发的极端情绪反应，展现AI应用风险",
+    "translated_title": "兄弟在ChatGPT上崩溃 😭💀",
+    "extra": {
+      "channel": "Netami",
+      "views": "14440",
+      "likes": "514"
+    }
+  },
+  {
+    "title": "Fargan no actualiza su Chat GPT 🤖 #fargan # #vegetta777 #willyrex",
+    "url": "https://www.youtube.com/watch?v=g78Y_kjMchI",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T20:00:00+00:00",
+    "summary": "Fargan账号长时间未更新ChatGPT内容，引发粉丝对AI维护的讨论",
+    "translated_title": "Fargan账号未更新ChatGPT 🤖 #fargan #vegetta777 #willyrex",
+    "extra": {
+      "channel": "Relic",
+      "views": "28099",
+      "likes": "1735"
+    }
+  },
+  {
+    "title": "How Do LLMs Work?",
+    "url": "https://www.youtube.com/watch?v=XQNhCU17ipM",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T23:13:09+00:00",
+    "summary": "解析LLM类AI模型的内部架构与算法运作机制，科普技术原理",
+    "translated_title": "大型语言模型的工作原理",
+    "extra": {
+      "channel": "Techquickie",
+      "views": "127194",
+      "likes": "3735"
+    }
+  },
+  {
+    "title": "Jev es el lanzamiento de IA mas importante desde ChatGPT",
+    "url": "https://www.youtube.com/watch?v=nkhWIRCfprU",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T23:12:13+00:00",
+    "summary": "标志着AI领域的重要突破，超越ChatGPT的影响力",
+    "translated_title": "Jev：自ChatGPT以来最重要的AI发布",
+    "extra": {
+      "channel": "EDteam",
+      "views": "55744",
+      "likes": "1225"
+    }
+  },
+  {
+    "title": "EX OpenAI lancia TypeSafe AI con questo nuovo modello Jev che è 193 volte più veloce e 444 volte più",
+    "url": "https://www.youtube.com/watch?v=AKdWJU3JG-M",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-19T07:04:31+00:00",
+    "summary": "全新TypeSafe AI模型Jev实现速度和性能的显著飞跃",
+    "translated_title": "EX OpenAI推出TypeSafe AI新模型Jev：速度提升193倍，性能增强444倍",
+    "extra": {
+      "channel": "Simone Rizzo",
+      "views": "10196",
+      "likes": "502"
+    }
+  },
+  {
+    "title": "Spec-driven vibe coding in action",
+    "url": "https://www.youtube.com/watch?v=1Fl94dPn2mU",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T15:26:27+00:00",
+    "summary": "通过规范驱动实现高效代码编写与创新氛围营造",
+    "translated_title": "基于规范的氛围编程实践",
+    "extra": {
+      "channel": "No place like localhost",
+      "views": "9054",
+      "likes": "358"
+    }
+  },
+  {
+    "title": "Jev in Java and Spring Boot (It&#39;s Not an LLM)",
+    "url": "https://www.youtube.com/watch?v=K4rqR6hcsAo",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T19:36:44+00:00",
+    "summary": "专为Java生态设计的本地AI引擎，无需依赖大模型",
+    "translated_title": "Jev在Java与Spring Boot中的应用（非LLM）",
+    "extra": {
+      "channel": "Dan Vega",
+      "views": "8781",
+      "likes": "120"
+    }
+  },
+  {
+    "title": "개인 환경에서도 Ollama보다 속도가 2배 빠른 로컬 LLM 엔진, ExLlamaV3 소개",
+    "url": "https://www.youtube.com/watch?v=sIBUqRyWDbU",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-19T02:00:31+00:00",
+    "summary": "适用于个人开发环境，性能超越Ollama，提供高效本地推理体验",
+    "translated_title": "ExLlamaV3：个人环境使用更快速的本地LLM引擎，速度是Ollama的两倍",
+    "extra": {
+      "channel": "괴발자",
+      "views": "4907",
+      "likes": "54"
+    }
+  },
+  {
+    "title": "Questa AI NON è un LLM: come funziona JEV",
+    "url": "https://www.youtube.com/watch?v=0nASbjPuMTs",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-19T13:05:20+00:00",
+    "summary": "解析JEV与传统LLM的区别及运行机制",
+    "translated_title": "这款AI并非LLM：JEV的工作原理",
+    "extra": {
+      "channel": "Simone Rizzo",
+      "views": "1726",
+      "likes": "150"
+    }
+  },
+  {
+    "title": "Apple Watch 4 Ultra: Kutu Açılışı ve LLM Benchmark + Tüketim Eleştirisi ve (bonus)",
+    "url": "https://www.youtube.com/watch?v=7MLejHPfII8",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-19T06:00:23+00:00",
+    "summary": "全面评测Apple Watch 4 Ultra性能及LLM应用表现",
+    "translated_title": "Apple Watch 4 Ultra开箱测评：LLM基准测试与消费批评",
+    "extra": {
+      "channel": "Onur Tirpan",
+      "views": "4620",
+      "likes": "205"
+    }
+  },
+  {
+    "title": "Jev vs. LLM",
+    "url": "https://www.youtube.com/watch?v=tDqxRa8GOkc",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-19T04:53:33+00:00",
+    "summary": "深度对比JEV与LLM在技术特点和应用场景的差异",
+    "translated_title": "JEV与LLM对比分析",
+    "extra": {
+      "channel": "Avocado Theory 🥑 — AI & Tech",
+      "views": "6386",
+      "likes": "20"
+    }
+  },
+  {
+    "title": "Jev explained in 7min..",
+    "url": "https://www.youtube.com/watch?v=vj7hysh0mOI",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-19T04:42:35+00:00",
+    "summary": "通过简明讲解快速掌握JEV的核心功能与优势",
+    "translated_title": "7分钟速解JEV核心技术",
+    "extra": {
+      "channel": "Caleb Writes Code",
+      "views": "66822",
+      "likes": "1084"
+    }
+  },
+  {
+    "title": "БЯМ (LLM) игнорирует правила в отличие от человека",
+    "url": "https://www.youtube.com/watch?v=CMDtRZfdFIc",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T20:32:34+00:00",
+    "summary": "揭示LLM模型在遵循规则方面的局限性",
+    "translated_title": "БЯМ（LLM）无视规则，与人类不同",
+    "extra": {
+      "channel": "Философ Александр Хомяков",
+      "views": "1254",
+      "likes": "31"
+    }
+  },
+  {
+    "title": "Beste lokales KI-Modell für Mittelklasse Gaming PC?",
+    "url": "https://www.youtube.com/watch?v=8GQAkw1SG0k",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T18:23:19+00:00",
+    "summary": "推荐高效且兼容性强的本地AI模型，提升游戏电脑性能。",
+    "translated_title": "最适合中端游戏电脑的本地AI模型是什么？",
+    "extra": {
+      "channel": "AIWAYKE",
+      "views": "1291",
+      "likes": "20"
+    }
+  },
+  {
+    "title": "Препарируем LLM-агента • Live coding",
+    "url": "https://www.youtube.com/watch?v=Pduu6CM6mXs",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T20:00:48+00:00",
+    "summary": "展示如何构建和优化LLM代理，实时演示代码实现过程。",
+    "translated_title": "准备LLM代理 • 实时编码",
+    "extra": {
+      "channel": "Olga Pavlova",
+      "views": "3775",
+      "likes": "57"
+    }
+  },
+  {
+    "title": "Why This AI Doesn&#39;t Think, It Just Predicts #ai #tech #shorts",
+    "url": "https://www.youtube.com/watch?v=mCBBJgJ4jQ8",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T19:52:43+00:00",
+    "summary": "解析AI仅依赖预测而非逻辑推理的工作原理，探讨技术差异。",
+    "translated_title": "为何此AI不思考？它仅进行预测 #ai #tech #shorts",
+    "extra": {
+      "channel": "Suck Less | Tym Rabchuk",
+      "views": "1739",
+      "likes": "30"
+    }
+  },
+  {
+    "title": "[490] Jev n’est pas un LLM, mais fonctionne très bien avec les LLM et le code classique !",
+    "url": "https://www.youtube.com/watch?v=kckVwKIjMds",
+    "source": "YouTube",
+    "category": "YouTube热点",
+    "published_at": "2026-09-18T20:36:47+00:00",
+    "summary": "介绍非LLM工具Jeve，展示其与现有模型及传统代码的无缝集成能力。",
+    "translated_title": "[490] Jeve 不是LLM，但与LLM和传统代码兼容性极佳！",
+    "extra": {
+      "channel": "Nicolas Laforet",
+      "views": "1003",
+      "likes": "6"
+    }
+  }
+]
